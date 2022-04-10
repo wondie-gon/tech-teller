@@ -1,0 +1,1394 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tech Teller\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-25 17:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.0"
+
+#: inc/template-tags.php:178
+msgid " comments"
+msgstr ""
+
+#: inc/admin/functions-admin.php:24
+#, php-format
+msgid "%1$s Options"
+msgstr ""
+
+#: frontpage-parts/frontpage-blog-posts.php:62 
+#: frontpage-parts/frontpage-blog-posts.php:178 
+#: frontpage-parts/frontpage-featured-reviews.php:62 
+#: frontpage-parts/frontpage-featured-reviews.php:97 
+#: frontpage-parts/frontpage-infinite-slider.php:54 
+#: frontpage-parts/frontpage-video.php:126
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: frontpage-parts/frontpage-featured-reviews.php:98
+#, php-format
+msgid "%s  &rarr;"
+msgstr ""
+
+#: inc/hooks/top-slider-layout.php:89 inc/hooks/top-slider-layout.php:159 
+#: inc/hooks/top-slider-layout.php:254 inc/hooks/top-slider-layout.php:325 
+#: inc/hooks/top-slider-layout.php:440 inc/hooks/top-slider-layout.php:502
+#, php-format
+msgid "%s &rarr;"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:39 
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:39 
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:47
+msgid "--Disable--"
+msgstr ""
+
+#: inc/customizer/customizer-functions/class-tech-teller-category-dropdown-control.php:36
+msgid "--Select Category--"
+msgstr ""
+
+#: inc/template-tags.php:180
+msgid "1 comment"
+msgstr ""
+
+#: inc/customizer/customizer-functions/single-post-customizer.php:108
+msgid "About Author Box"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:358
+msgid "About Theme"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:268
+msgid ""
+"Activate, deactivate and customize Services, Team, Testimonial for About Us "
+"page"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:261
+msgid "Activate, deactivate and customize video, audio, gallery"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:205
+msgid "Ad Button Text:"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:66 
+#: inc/customizer/customizer-functions/ad-post-customizer.php:163
+msgid "Ad Heading:"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:184
+msgid "Ad Text:"
+msgstr ""
+
+#: wp_bootstrap_navwalker.php:334
+msgid "Add a menu"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:254
+msgid "Add and customize forms for better user interaction, slider speed"
+msgstr ""
+
+#: inc/widgets/widgets.php:84
+msgid "Add footer widget area four."
+msgstr ""
+
+#: inc/widgets/widgets.php:32
+msgid "Add footer widget area one."
+msgstr ""
+
+#: inc/widgets/widgets.php:68
+msgid "Add footer widget area three."
+msgstr ""
+
+#: inc/widgets/widgets.php:52
+msgid "Add footer widget area two."
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:88 
+#: inc/customizer/customizer-functions/ad-post-customizer.php:227
+msgid "Add Image:"
+msgstr ""
+
+#: inc/widgets/widgets.php:21
+msgid "Add sidebar widget area."
+msgstr ""
+
+#: inc/admin/hooks-admin.php:205
+msgid "Add sliders, customize layout, customize color, slider speed"
+msgstr ""
+
+#: inc/widgets/widgets.php:98
+msgid "Add social media widget area for posts."
+msgstr ""
+
+#: inc/admin/hooks-admin.php:198
+msgid ""
+"Add various sections (slider, featured review, featured blog, video section "
+"etc) at frontpage and customize layout, style and select categories to be "
+"displayed."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:109
+msgid "Additional Text: "
+msgstr ""
+
+#: inc/admin/hooks-admin.php:92 inc/admin/hooks-admin.php:113
+msgid "Advanced"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:16
+msgid "Advertisement Section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:142
+msgid "Archive Pages Features"
+msgstr ""
+
+#: template-parts/sidebar/sidebar-archives.php:19
+msgid "Archives"
+msgstr ""
+
+#: archive.php:42
+msgid "Archives by date: "
+msgstr ""
+
+#: archive.php:44
+msgid "Archives by month: "
+msgstr ""
+
+#: archive.php:46
+msgid "Archives by year: "
+msgstr ""
+
+#: inc/template-tags.php:30
+msgid "Author"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:185 
+#: inc/customizer/customizer-functions/general-theme-settings.php:120 
+#: inc/customizer/customizer-functions/general-theme-settings.php:210
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:180
+msgid ""
+"Besides our full documentation about Techteller, we offer excellent support "
+"through our online support system."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:87
+msgid "Block Heading: "
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:25
+msgid "Blog Pages Features"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:51
+msgid "Body Background Image Settings"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:311
+msgid "Bottom Extra Footer Background"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:110
+msgid "Brief info on how the review was made. Not more than 200 characters"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:150 
+#: inc/customizer/customizer-functions/general-theme-settings.php:225
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:154 
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:95
+msgid "Button text "
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:157 
+#: inc/customizer/customizer-functions/general-theme-settings.php:232
+msgid "Button Text Colors"
+msgstr ""
+
+#: template-parts/sidebar/sidebar-categories.php:30
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:61
+msgid "Category for infinite slider"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:270
+msgid "Category for Post Below Slider"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:62
+msgid "Category for video section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:196
+msgid "Change if you want another heading for video section: "
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:217
+msgid ""
+"Change text if you want a different copyright text to display at bottom "
+"footer."
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:169
+msgid ""
+"Changes you make here will be reflected on darker background colored "
+"sections such as front page slider, our team section, and related sections. "
+"Choose colors for background, text, button links and their background that "
+"suit your website."
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:65
+msgid ""
+"Changes you make here will be reflected on light background colored sections "
+"such as main text content areas, sidebars, and related sections. Choose "
+"colors for background, text, button links and their background that suit "
+"your website."
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:244
+msgid ""
+"Changes you make here will customize the appearance of footer area. Choose "
+"colors for background, text, links and icons that suit your website."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:39
+msgid ""
+"Check the box to enable and display latest videos at frontpage of your "
+"website."
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:92
+msgid ""
+"Check the box to enable extra bottom footer for adding page links for "
+"example, &ldquo;Terms and conditions&rdquo; beside the Copyright notice."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:40
+msgid "Check the box to enable infinite slider"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:117
+msgid "Classic Editor"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:333 
+#: inc/customizer/customizer-functions/general-theme-settings.php:347
+msgid "Color After Hover"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:55
+msgid "Color Settings"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:168
+msgid "Colors for Dark Backgrounds"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:64
+msgid "Colors for Light Backgrounds"
+msgstr ""
+
+#: inc/template-tags.php:185
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/hooks-admin.php:143
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:150
+msgid "Contact Form 7 Pro"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:253
+msgid "Contact Forms"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:179 inc/admin/hooks-admin.php:181
+msgid "Contact Support"
+msgstr ""
+
+#: template-parts/content-audio.php:64 template-parts/content-search.php:78 
+#: inc/customizer/default.php:50
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/content-archive.php:85 template-parts/content.php:90
+msgid "Continue reading"
+msgstr ""
+
+#: frontpage-parts/frontpage-blog-posts.php:133 
+#: frontpage-parts/frontpage-blog-posts.php:202
+msgid "Continue reading  &rarr;"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:28
+#, php-format
+msgid ""
+"Continue reading&#60;span class=\"screen-reader-text\"&#62; \"%s\"&#60;&#47;"
+"span&#62;"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-archive.php:67 template-parts/content-video.php:84 
+#: template-parts/content.php:72
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:216
+msgid "Copyright Text:"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:47
+msgid "Custom Header Image"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:267
+msgid "Custom Post Types for About Us Page"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:246
+msgid "Customizable Backgrounds"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:239
+msgid "Customizable Colors"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:69
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:359
+msgid "Default Layout and Features"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:226
+msgid "Different layout of sections for menu, footer, slider etc.."
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:242
+msgid "Display Site Name: "
+msgstr ""
+
+#: inc/admin/hooks-admin.php:65 inc/admin/hooks-admin.php:174
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:211
+msgid "Easy Customization of Features"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:405
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:34
+msgid "Enable content type for featured blog"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:35
+msgid "Enable content type for featured review"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:33 
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:34
+msgid "Enable Content Type: "
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:91
+msgid "Enable Extra Footer"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:439
+msgid "Enable Fixed Menu"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:44
+msgid "Enable Header Advertisment Section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:39
+msgid "Enable infinite slider"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:117
+msgid "Enable Page Links"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:190
+msgid "Enable Scroll to Top Button"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:141
+msgid "Enable Sidebar Advertisment Section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/social-media-nav.php:37
+msgid "Enable Social Media links"
+msgstr ""
+
+#: inc/customizer/customizer-functions/media-posts-social-sharing.php:30 
+#: inc/customizer/customizer-functions/single-post-customizer.php:181
+msgid "Enable Social Media Sharing"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:191
+msgid "Enable the scroll to top button on bottom footer"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:118
+msgid "Enable to add page links on bottom footer"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:38
+msgid "Enable Video Section"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:118
+msgid ""
+"Enables the WordPress classic editor and the old-style Edit Post screen with "
+"TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:69
+msgid "Extra Bottom Footer"
+msgstr ""
+
+#: inc/customizer/customizer-functions/media-posts-social-sharing.php:52 
+#: inc/customizer/customizer-functions/single-post-customizer.php:204 
+#: inc/customizer/customizer-functions/social-media-nav.php:63
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/default.php:69
+msgid "Featured Blog"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:13
+msgid "Featured Blog/News Post"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:87 
+#: inc/customizer/customizer-functions/posts-customizer.php:204 
+#: inc/customizer/customizer-functions/posts-customizer.php:395 
+#: inc/customizer/customizer-functions/single-post-customizer.php:87
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:167
+msgid "Featured image "
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:18
+msgid "Featured Infinite Slider/Banner"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:20
+msgid "Featured Posts Slider/Banner Setting"
+msgstr ""
+
+#: inc/customizer/default.php:60
+msgid "Featured Review"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:15
+msgid "Featured Review Post"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:16
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:243
+msgid "Footer Color Settings"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:340
+msgid "Footer Icon Links Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:49
+msgid "Footer layout"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:27
+msgid "Footer Layout Setting"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:326
+msgid "Footer Link Color"
+msgstr ""
+
+#: functions.php:66
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:319
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/widgets/widgets.php:82
+msgid "Footer Widget Area Four"
+msgstr ""
+
+#: inc/widgets/widgets.php:30
+msgid "Footer Widget Area One"
+msgstr ""
+
+#: inc/widgets/widgets.php:66
+msgid "Footer Widget Area Three"
+msgstr ""
+
+#: inc/widgets/widgets.php:50
+msgid "Footer Widget Area Two"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:362
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:197
+msgid "Frontpage Customizable Sections"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:204
+msgid "Frontpage Featured Slider"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-custom-sections.php:18
+msgid "Frontpage Features"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:176
+msgid "Full Documentation"
+msgstr ""
+
+#. Name of the template
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:18
+msgid "General Theme Options"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:148
+msgid "Get Contact Form 7 Free"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:322
+msgid "Get The Pro Version Now"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:130
+msgid "Get Yoast SEO Free"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:359
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:71
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/customizer/customizer-functions/media-posts-social-sharing.php:94 
+#: inc/customizer/customizer-functions/single-post-customizer.php:244 
+#: inc/customizer/customizer-functions/social-media-nav.php:105
+msgid "Google+"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:164
+msgid "Gradient Direction"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:25
+msgid "Header Advertisement Posts"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:219 
+#: inc/customizer/customizer-functions/general-theme-settings.php:128
+msgid "Heading Background Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:162 
+#: inc/customizer/customizer-functions/frontpage-video-section.php:243 
+#: inc/customizer/customizer-functions/general-theme-settings.php:136
+msgid "Heading Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:109
+msgid "Heading color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:139
+msgid "Heading for section: "
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:195
+msgid "Heading for video section: "
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:86
+msgid "Heading of Review: "
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:72
+msgid "How many sliders do you want on homepage?"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://github.com/wondie-gon"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.wontechalook.com/themes/tech-teller/"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:88 inc/admin/hooks-admin.php:91 
+#: inc/admin/hooks-admin.php:109 inc/admin/hooks-admin.php:112
+msgid "Import Demo Content"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:59
+msgid ""
+"In order for you to benefit the most out of this product, we have compiled "
+"recommended plugins to install."
+msgstr ""
+
+#: inc/customizer/customizer-functions/social-media-nav.php:231
+msgid "In the Footer"
+msgstr ""
+
+#: inc/customizer/customizer-functions/social-media-nav.php:208
+msgid "In the Header"
+msgstr ""
+
+#: inc/customizer/customizer-functions/social-media-nav.php:166
+msgid "Instagram"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:121
+msgid "Install Classic Editor"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:156
+msgid "Install Contact Form 7 Free"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:138
+msgid "Install Yoast Free"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:89 inc/admin/hooks-admin.php:110
+msgid ""
+"It is recommended to import demo contents for sample posts, attachments, and "
+"widgets to your WordPress installation. Click the button below to import."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: template-parts/content-none.php:63
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:17
+msgid "Latest Video Section"
+msgstr ""
+
+#: inc/customizer/default.php:63
+msgid "Learn More"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:112 
+#: inc/customizer/customizer-functions/ad-post-customizer.php:251
+msgid "Link:"
+msgstr ""
+
+#: inc/customizer/customizer-functions/media-posts-social-sharing.php:137 
+#: inc/customizer/customizer-functions/single-post-customizer.php:285 
+#: inc/customizer/customizer-functions/social-media-nav.php:145
+msgid "Linkedin"
+msgstr ""
+
+#: functions.php:65
+msgid "Main Top Menu"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:233
+msgid ""
+"Major social media integrated, link site, share posts with social media and "
+"customize"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:238
+msgid "Media Posts Features"
+msgstr ""
+
+#: inc/customizer/customizer-functions/media-posts-social-sharing.php:8
+msgid "Media Posts Social Sharing"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:486
+msgid "Menu Button Position"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:461
+msgid "Menu Button Type"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:218
+msgid "Mobile Friendly"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:212
+msgid "Most features are easily customizable"
+msgstr ""
+
+#: inc/template-functions.php:109
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:176
+msgid "No comments available"
+msgstr ""
+
+#: archive.php:71 home.php:48 page-about.php:31 page.php:50 
+#: template-fullwidth.php:27
+msgid "No content found"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:71
+msgid "Number of sliders"
+msgstr ""
+
+#. 1: title.
+#: comments.php:36
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/admin/hooks-admin.php:127
+msgid ""
+"Our theme was developed to use some features like breadcrumbs of Yoast "
+"WordPress plugin. This plugin also provides so much more which will enhance "
+"your website at the backend. We recommend you to install Yoast to get the "
+"best out of our theme and WordPress backend management."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:49
+msgid "Page"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:145
+msgid "Page "
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:140
+msgid "Page Link 1"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:163
+msgid "Page Link 2"
+msgstr ""
+
+#: template-parts/content-archive.php:78 template-parts/content-page.php:39 
+#: template-parts/content-single.php:86 template-parts/content-video.php:95 
+#: template-parts/content.php:83
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/customizer-functions/media-posts-social-sharing.php:115 
+#: inc/customizer/customizer-functions/single-post-customizer.php:264 
+#: inc/customizer/customizer-functions/social-media-nav.php:125
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:40 
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:40 
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:48
+msgid "Post"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:127
+#, php-format
+msgctxt "post author"
+msgid "%s "
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:45 
+#: inc/customizer/customizer-functions/posts-customizer.php:162 
+#: inc/customizer/customizer-functions/posts-customizer.php:258 
+#: inc/customizer/customizer-functions/posts-customizer.php:353 
+#: inc/customizer/customizer-functions/single-post-customizer.php:45
+msgid "Post Author Meta"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:108 
+#: inc/customizer/customizer-functions/posts-customizer.php:300 
+#: inc/customizer/customizer-functions/posts-customizer.php:437
+msgid "Post Category Badges"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:198
+msgid "Post category below featured"
+msgstr ""
+
+#: inc/customizer/customizer-functions/single-post-customizer.php:150
+msgid "Post Comment Link"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:102
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:66 
+#: inc/customizer/customizer-functions/posts-customizer.php:183 
+#: inc/customizer/customizer-functions/posts-customizer.php:279 
+#: inc/customizer/customizer-functions/posts-customizer.php:374 
+#: inc/customizer/customizer-functions/single-post-customizer.php:66
+msgid "Post Date Meta"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:416
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:129 
+#: inc/customizer/customizer-functions/posts-customizer.php:225 
+#: inc/customizer/customizer-functions/posts-customizer.php:321 
+#: inc/customizer/customizer-functions/posts-customizer.php:458 
+#: inc/customizer/customizer-functions/single-post-customizer.php:129
+msgid "Post Tag Badges"
+msgstr ""
+
+#: archive.php:39
+msgid "Posts archive by: "
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:199
+msgid "Posts category below featured"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:13
+msgid "Posts Customizer"
+msgstr ""
+
+#: inc/template-functions.php:108
+msgid "Previous"
+msgstr ""
+
+#: inc/widgets/widgets.php:19
+msgid "Primary Sidebar"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/customizer/default.php:73
+msgid "Recent Blogs"
+msgstr ""
+
+#: inc/customizer/default.php:92
+msgid "Recent Videos"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:60
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:58 inc/admin/hooks-admin.php:360
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:219
+msgid "Responsive layout for every device"
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:334
+msgid "Search Pages Features"
+msgstr ""
+
+#. %s: search query.
+#: search.php:33
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:116
+msgid "Section Background Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:139
+msgid "Section Foreground Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:223
+msgid "Section Heading: "
+msgstr ""
+
+#: inc/template-tags.php:44 inc/template-tags.php:51
+msgid "See posts from author"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:141
+msgid ""
+"Select 1st page to put its link on extra bottom footer along with Copyright "
+"text."
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:164
+msgid ""
+"Select 2nd page to put its link on extra bottom footer along with Copyright "
+"text."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:220
+msgid "Select background color for heading of video section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:117
+msgid "Select background color for video section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:62
+msgid "Select category for featured blog"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:61
+msgid "Select category for featured Post"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:200
+msgid "Select category for posts below featured blog"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:199
+msgid "Select category for posts below featured review"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:63
+msgid "Select category for posts in featured blog section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:119
+msgid "Select category for slider Post"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:62
+msgid "Select category to choose posts for featured section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:62
+msgid "Select category to choose posts for infinite slider section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:271
+msgid "Select category to choose posts for section below slider"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:120
+msgid "Select category to choose posts for slider section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:89
+msgid ""
+"Select column layout and how many videos are displayed at fronpage of your "
+"website."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:165
+msgid "Select direction of linear gradient you want to create for background."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:140
+msgid ""
+"Select foreground color for video section. This will enable you to make "
+"various gradients for the section's background."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:86
+msgid "Select layout how individual sliders are displayed."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:217
+msgid "Select layout how sliders are displayed."
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:50
+msgid "Select layout to set column number for footer widget area."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:244
+msgid "Select text color for heading of video section"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:43
+msgid "Select the content type to display on slider"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:380
+msgid ""
+"Select the default site column layout from the following options. The "
+"selected layout will be used as a default layout for various pages such as "
+"blogs, categories, search, archive etc.."
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:462
+msgid ""
+"Select the type of menu button you want to use to toggle the navigation menu "
+"on small devices."
+msgstr ""
+
+#: comments.php:75
+msgid "Send"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:209
+msgid "Set color for title of individual post in the slider"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:114 
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:248
+msgid "Set speed of slider autoplay"
+msgstr ""
+
+#: inc/customizer/customizer-functions/media-posts-social-sharing.php:9
+msgid ""
+"Settings you make here enables a social media sharing features for various "
+"media posts such as video, audio, gallery and images. First enable, then "
+"select the social media."
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:26
+msgid ""
+"Settings you make here will be reflected at most blog posts in various pages "
+"of your website."
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:239
+msgid ""
+"Settings you make here will be reflected on appearance of media posts in "
+"various pages of your website."
+msgstr ""
+
+#: inc/customizer/customizer-functions/posts-customizer.php:143
+msgid ""
+"Settings you make here will be reflected on appearance of posts in archive, "
+"category, tag and related pages of your website."
+msgstr ""
+
+#: inc/hooks/social-media.php:399
+#, php-format
+msgid "Share %1$s"
+msgstr ""
+
+#: inc/customizer/customizer-functions/single-post-customizer.php:162
+msgid "Share Post on Social Media"
+msgstr ""
+
+#: inc/customizer/customizer-functions/ad-post-customizer.php:122
+msgid "Sidebar Advertisement Posts"
+msgstr ""
+
+#: functions.php:67
+msgid "Sidebar Menu"
+msgstr ""
+
+#: inc/customizer/customizer-functions/single-post-customizer.php:16
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/customizer-functions/single-post-customizer.php:26
+msgid "Single Post Features"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:379
+msgid "Site column layout"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:419
+msgid "Site Responsiveness"
+msgstr ""
+
+#: inc/customizer/customizer-functions/footer-customizer.php:243
+msgid ""
+"Slide the checkbox to the right if you want your site name to appear along "
+"with copyright notice."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:85
+msgid "Slider column layout"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:42
+msgid "Slider Content"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:216
+msgid "Slider layout"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:113 
+#: inc/customizer/customizer-functions/frontpage-top-slider-section.php:247
+msgid "Slider speed"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:232
+msgid "Social Media Integrated"
+msgstr ""
+
+#: inc/customizer/customizer-functions/social-media-nav.php:16
+msgid "Social Media Links"
+msgstr ""
+
+#: inc/widgets/widgets.php:96
+msgid "Social Media Widget"
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid "Sorry, there is nothing that matches your search."
+msgstr ""
+
+#: inc/admin/hooks-admin.php:361
+msgid "Support"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:260
+msgid "Support Custom Post Formats"
+msgstr ""
+
+#. Name of the theme
+msgid "Tech Teller"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Tech Teller is a clean and attractive WordPress theme which is built using "
+"grid layout of Bootstrap. It is responsive to various sized devices and "
+"compliant with modern and older browsers. The theme is suitable for blogs, "
+"news portals, freelancers, and other related businesses."
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:143 
+#: inc/customizer/customizer-functions/general-theme-settings.php:218
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:154
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer/default.php:61
+msgid ""
+"The review of this product is based on personal experiences and from other "
+"users"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:63
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:144
+msgid ""
+"This plugin enables you to set up, style and configure a contact form for "
+"your website. Click the buttons below to download, install and/or activate "
+"the plugin."
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:232
+msgid "Title Background Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-featured-reviews.php:131 
+#: inc/customizer/customizer-functions/frontpage-infinite-slider.php:208
+msgid "Title Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-blog-posts.php:131
+msgid "Title color"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:172
+msgid "To Bottom"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:173
+msgid "To Left"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:174
+msgid "To Right"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:171
+msgid "To Top"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:493
+msgid "Top Left"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:303
+msgid "Top Main Footer Background"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:492
+msgid "Top Right"
+msgstr ""
+
+#: inc/customizer/customizer-functions/media-posts-social-sharing.php:73 
+#: inc/customizer/customizer-functions/single-post-customizer.php:224 
+#: inc/customizer/customizer-functions/social-media-nav.php:84
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/customizer-functions/social-media-nav.php:232
+msgid "Uncheck if you want the social media bar not to be displayed on footer"
+msgstr ""
+
+#: inc/customizer/customizer-functions/social-media-nav.php:209
+msgid "Uncheck if you want the social media bar not to be displayed on header"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:225
+msgid "Various Layout Designs"
+msgstr ""
+
+#: inc/customizer/customizer-functions/frontpage-video-section.php:88
+msgid "Video column layout"
+msgstr ""
+
+#: template-parts/content-video.php:101
+msgid "View Full"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:175
+msgid ""
+"We have compiled the necessary documentation that explains every aspect of "
+"this theme. All you need to know about Techteller are included in our "
+"documentation."
+msgstr ""
+
+#: inc/admin/hooks-admin.php:64
+msgid ""
+"We have compiled the necessary documentation that explains every aspect of "
+"this theme. You can get full documentation by clicking the button below."
+msgstr ""
+
+#: inc/admin/functions-admin.php:23
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:341
+msgid "Welcome to Techteller"
+msgstr ""
+
+#: inc/customizer/customizer-functions/general-theme-settings.php:487
+msgid "Where do you want the menu button to appear on small devices?"
+msgstr ""
+
+#. Author of the theme
+msgid "Wondwossen Birhanie"
+msgstr ""
+
+#: comments.php:76
+msgid "Write your comments below."
+msgstr ""
+
+#: inc/admin/hooks-admin.php:126
+msgid "Yoast"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:132
+msgid "Yoast SEO Pro"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:247
+msgid ""
+"You can customize background colors and images for various sections of "
+"frontpage and other pages easily"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:240
+msgid ""
+"You can customize colors for various sections of frontpage and other pages "
+"easily"
+msgstr ""
+
+#: inc/admin/hooks-admin.php:70
+msgid ""
+"You can easiliy customize our theme using WordPress Customizer to suit your "
+"preferences for the website you want to build."
+msgstr ""
+
+#: template-parts/content-none.php:47
+msgid "You can view our latest articles though."
+msgstr ""
+
+#: inc/admin/hooks-admin.php:20
+#, php-format
+msgid ""
+"You have now installed %s and ready to use as your theme for your website. "
+"Thank you for choosing our product! We hope you will enjoy by all features "
+"and functionalities that the theme offers."
+msgstr ""
+
+#: inc/customizer/customizer-functions/social-media-nav.php:187
+msgid "Youtube"
+msgstr ""

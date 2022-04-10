@@ -1,0 +1,284 @@
+/**
+* theme Tech Teller
+* styles for woocommerce cart pages
+*
+*/
+.tech-teller-woocommerce-cart .cart .coupon .input-text {
+	width: auto;
+	float: left;
+    box-sizing: border-box;
+    border: 1px solid #d3ced2;
+    padding: 6px 6px 5px;
+    margin: 0 4px 0 0;
+    outline: 0;
+    vertical-align: middle;
+}
+
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart .product-thumbnail {
+	padding: 0;
+}
+.tech-teller-woocommerce-cart #add_payment_method table.cart img,
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart .product-thumbnail img, 
+.tech-teller-woocommerce-cart table.cart img, 
+.tech-teller-woocommerce-checkout table.cart img {
+	width: 40px;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart a,
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart .product-name a {
+	color: #3a6073;
+}
+
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart a:hover,
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart a:focus,
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart a:active,
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart .product-name a:hover,
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart .product-name a:focus,
+.tech-teller-woocommerce-cart .shop_table .shop_table_responsive .cart .product-name a:active {
+	color: #15151b;
+}
+
+.tech-teller-woocommerce-cart .cart .button, 
+.tech-teller-woocommerce-cart .cart input.button,
+.tech-teller-woocommerce-checkout #add_payment_method .wc-proceed-to-checkout a.checkout-button, 
+.tech-teller-woocommerce-cart .wc-proceed-to-checkout a.checkout-button, 
+.tech-teller-woocommerce-checkout .wc-proceed-to-checkout a.checkout-button,
+.tech-teller-woocommerce-checkout #payment #place_order, 
+.woocommerce-page.tech-teller-woocommerce-checkout #payment #place_order,
+.tech-teller-woocommerce-checkout .checkout_coupon.woocommerce-form-coupon .button {
+	font-size: 100%;
+    margin: 0;
+    line-height: 1.2;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618rem 1rem;
+    font-weight: 500;
+    -moz-border-radius: 0.65rem;
+    -webkit-border-radius: 0.65rem;
+    border-radius: 0.65rem;
+    left: auto;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-transition:all .5s ease-in-out;
+  	-moz-transition:all .5s ease-in-out;
+  	transition:all .5s ease-in-out;
+}
+.tech-teller-woocommerce-cart #content table.cart td.actions .coupon, 
+.tech-teller-woocommerce-cart table.cart td.actions .coupon, 
+.woocommerce-page #content table.cart td.actions .coupon, 
+.woocommerce-page table.cart td.actions .coupon {
+	float: left;
+}
+.tech-teller-woocommerce-cart #content table.cart td.actions .coupon button.button, 
+.tech-teller-woocommerce-cart table.cart td.actions .coupon button.button, 
+.woocommerce-page #content table.cart td.actions .coupon button.button, 
+.woocommerce-page table.cart td.actions .coupon button.button,
+.tech-teller-woocommerce-cart .cart .button, 
+.tech-teller-woocommerce-cart .cart input.button,
+.tech-teller-woocommerce-checkout #add_payment_method .wc-proceed-to-checkout a.checkout-button, 
+.tech-teller-woocommerce-cart .wc-proceed-to-checkout a.checkout-button, 
+.tech-teller-woocommerce-checkout .wc-proceed-to-checkout a.checkout-button,
+.tech-teller-woocommerce-checkout #payment #place_order, 
+.woocommerce-page.tech-teller-woocommerce-checkout #payment #place_order,
+.tech-teller-woocommerce-checkout .checkout_coupon.woocommerce-form-coupon .button {
+	background-color: #15151b;
+	color: #ffffff;
+	border: 1px #15151b solid;
+}
+.tech-teller-woocommerce-cart #content table.cart td.actions .coupon button.button:hover, 
+.tech-teller-woocommerce-cart #content table.cart td.actions .coupon button.button:focus, 
+.tech-teller-woocommerce-cart #content table.cart td.actions .coupon button.button:active, 
+.tech-teller-woocommerce-cart table.cart td.actions .coupon button.button:hover, 
+.tech-teller-woocommerce-cart table.cart td.actions .coupon button.button:focus, 
+.tech-teller-woocommerce-cart table.cart td.actions .coupon button.button:active,
+.woocommerce-page #content table.cart td.actions .coupon button.button:hover, 
+.woocommerce-page #content table.cart td.actions .coupon button.button:focus, 
+.woocommerce-page #content table.cart td.actions .coupon button.button:active,
+.woocommerce-page table.cart td.actions .coupon button.button:hover,
+.woocommerce-page table.cart td.actions .coupon button.button:focus,
+.woocommerce-page table.cart td.actions .coupon button.button:active,
+.tech-teller-woocommerce-cart .cart .button:hover, 
+.tech-teller-woocommerce-cart .cart .button:focus, 
+.tech-teller-woocommerce-cart .cart .button:active,
+.tech-teller-woocommerce-cart .cart input.button:hover,
+.tech-teller-woocommerce-cart .cart input.button:focus,
+.tech-teller-woocommerce-cart .cart input.button:active,
+.tech-teller-woocommerce-checkout #add_payment_method .wc-proceed-to-checkout a.checkout-button:hover, 
+.tech-teller-woocommerce-checkout #add_payment_method .wc-proceed-to-checkout a.checkout-button:focus, 
+.tech-teller-woocommerce-checkout #add_payment_method .wc-proceed-to-checkout a.checkout-button:active,
+.tech-teller-woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, 
+.tech-teller-woocommerce-cart .wc-proceed-to-checkout a.checkout-button:focus, 
+.tech-teller-woocommerce-cart .wc-proceed-to-checkout a.checkout-button:active,
+.tech-teller-woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:hover,
+.tech-teller-woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:focus,
+.tech-teller-woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:active,
+.tech-teller-woocommerce-checkout #payment #place_order:hover, 
+.tech-teller-woocommerce-checkout #payment #place_order:focus, 
+.tech-teller-woocommerce-checkout #payment #place_order:active,
+.woocommerce-page.tech-teller-woocommerce-checkout #payment #place_order:hover,
+.woocommerce-page.tech-teller-woocommerce-checkout #payment #place_order:focus,
+.woocommerce-page.tech-teller-woocommerce-checkout #payment #place_order:active,
+.tech-teller-woocommerce-cart .cart .coupon .button:hover,
+.tech-teller-woocommerce-cart .cart .coupon .button:focus,
+.tech-teller-woocommerce-cart .cart .coupon .button:active,
+.tech-teller-woocommerce-checkout .checkout_coupon.woocommerce-form-coupon .button:hover,
+.tech-teller-woocommerce-checkout .checkout_coupon.woocommerce-form-coupon .button:focus,
+.tech-teller-woocommerce-checkout .checkout_coupon.woocommerce-form-coupon .button:active {
+	background-color: #fa5151;
+	border: 1px #fa5151 solid;
+}
+
+.tech-teller-woocommerce-cart button.button.disabled, 
+.tech-teller-woocommerce-cart button.button:disabled, 
+.tech-teller-woocommerce-cart button.button[disabled]:disabled, 
+.woocommerce-page input.button.disabled, 
+.woocommerce-page input.button:disabled, 
+.woocommerce-page input.button[disabled]:disabled {
+	cursor: not-allowed;
+	opacity: .5;
+	padding: .618rem 1rem;
+	background-color: #c9ffbf;
+	color: #fa5151;
+	border: 1px #b4daad solid;
+}
+.tech-teller-woocommerce-cart button.button.disabled:hover,
+.tech-teller-woocommerce-cart button.button:disabled:hover, 
+.tech-teller-woocommerce-cart button.button[disabled]:disabled:hover, 
+.woocommerce-page input.button.disabled:hover, 
+.woocommerce-page input.button:disabled:hover, 
+.woocommerce-page input.button[disabled]:disabled:hover {
+	background-color: #c9ffbf;
+	color: #fa5151;
+	border: 1px #b4daad solid;
+}
+.tech-teller-woocommerce-cart button.button:not(:disabled):hover,
+.woocommerce-page input.button:not(:disabled):hover {
+	background-color: #fa5151;
+	color: #ffffff;
+	border: 1px #fa5151 solid;
+}
+.tech-teller-woocommerce-cart .cart-collaterals .cart_totals, 
+.woocommerce-page .cart-collaterals .cart_totals {
+	display: block;
+	float: right;
+	width: 48%;
+	text-align: left;
+	padding: 0.5rem;
+	background-color: #ffffff;
+	-moz-border-radius: 0.65rem;
+	-webkit-border-radius: 0.65rem;
+	border-radius: 0.65rem;
+	-moz-box-shadow: 2px 2px 2px 3px #cbd4dc, 2px 2px 2px 3px #faf8f8;
+	-webkit-box-shadow: 2px 2px 2px 3px #cbd4dc, 2px 2px 2px 3px #faf8f8;
+	box-shadow: 2px 2px 2px 3px #cbd4dc, 2px 2px 2px 3px #faf8f8;
+}
+@media (max-width: 576px) {
+	.tech-teller-woocommerce-cart .cart-collaterals .cart_totals, 
+	.woocommerce-page .cart-collaterals .cart_totals {
+		float: none;
+		width: 100%;
+	}
+}
+.tech-teller-woocommerce-cart .cart-collaterals .cart_totals h2, 
+.woocommerce-page .cart-collaterals .cart_totals h2,
+.tech-teller-woocommerce-checkout .woocommerce-billing-fields h3,
+.woocommerce-page.tech-teller-woocommerce-checkout .woocommerce-billing-fields h3,
+#add_payment_method .checkout .col-2 h3#ship-to-different-address, 
+.tech-teller-woocommerce-cart .checkout .col-2 h3#ship-to-different-address, 
+.tech-teller-woocommerce-checkout .checkout .col-2 h3#ship-to-different-address,
+.tech-teller-woocommerce-checkout #order_review_heading {
+	padding: 0.25rem;
+	-moz-border-radius: 0.65rem;
+	-webkit-border-radius: 0.65rem;
+	border-radius: 0.65rem;
+	background-color: #d6a4a4;
+	color: #ffffff;
+	font-weight: 300;
+}
+.tech-teller-woocommerce-cart .woocommerce-shipping-totals .shipping a
+.tech-teller-woocommerce-cart .cart-collaterals .cart_totals .shop_table .shop_table_responsive, 
+.woocommerce-page .cart_totals .shop_table .shop_table_responsive {
+	width: 100%;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+.tech-teller-woocommerce-cart #add_payment_method .wc-proceed-to-checkout a.checkout-button, 
+.tech-teller-woocommerce-cart .wc-proceed-to-checkout a.checkout-button, 
+.tech-teller-woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+	display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+/*checkout page styles*/
+.tech-teller-woocommerce-checkout #customer_details.col2-set,
+.tech-teller-woocommerce-checkout .checkout .col2-set {
+	margin-bottom: 2rem;
+}
+.tech-teller-woocommerce-checkout .col2-set .col-1, 
+.woocommerce-page.tech-teller-woocommerce-checkout .col2-set .col-1 {
+    float: left;
+    width: 48%;
+    flex: none;
+    max-width: none;
+}
+
+.tech-teller-woocommerce-checkout .col2-set .col-2, 
+.woocommerce-page.tech-teller-woocommerce-checkout .col2-set .col-2 {
+    float: right;
+    width: 48%;
+    flex: none;
+    max-width: none;
+}
+.tech-teller-woocommerce-checkout .woocommerce-additional-fields__field-wrapper .input-text {
+	margin-left: 1rem;
+	height: 90px;
+}
+
+@media (max-width: 576px) {
+	.tech-teller-woocommerce-checkout .col2-set .col-1, 
+	.woocommerce-page.tech-teller-woocommerce-checkout .col2-set .col-1,
+	.tech-teller-woocommerce-checkout .col2-set .col-2, 
+	.woocommerce-page.tech-teller-woocommerce-checkout .col2-set .col-2 {
+	    float: none;
+	    width: 100%;
+	}
+}
+
+/*checkout form styles*/
+.tech-teller-woocommerce-checkout .woocommerce form .form-row label {
+	color: #15151b;
+	font-weight: 400;
+	padding: 0;
+	margin-bottom: 0;
+}
+.tech-teller-woocommerce-checkout .woocommerce form .form-row input.input-text, 
+.tech-teller-woocommerce-checkout .woocommerce form .form-row textarea {
+	box-sizing: border-box;
+	margin: 0;
+	outline: 0;
+	line-height: 1.5;
+	vertical-align: baseline;
+	-moz-border-radius: 0.65rem;
+	-webkit-border-radius: 0.65rem;
+	border-radius: 0.65rem;
+}
+.tech-teller-woocommerce-checkout form .form-row-wide span.woocommerce-input-wrapper,
+.tech-teller-woocommerce-checkout form .woocommerce-additional-fields span.woocommerce-input-wrapper {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+

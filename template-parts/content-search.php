@@ -1,0 +1,95 @@
+<?php
+/**
+ * Template part for displaying search results.
+ *
+ * @package Tech_Teller
+ */
+// Get defaults for theme customizer
+$default = tech_teller_get_default_mods();
+
+// post author meta
+$tech_teller_search_post_author_meta = get_theme_mod( 'tech_teller_enable_search_posts_author_meta', $default['tech_teller_enable_search_posts_author_meta'] );
+
+// post date meta
+$tech_teller_search_post_date_meta = get_theme_mod( 'tech_teller_enable_search_posts_date_meta', $default['tech_teller_enable_search_posts_date_meta'] );
+
+//featured image
+$tech_teller_search_post_featured_image = get_theme_mod( 'tech_teller_enable_search_posts_featured_image', $default['tech_teller_enable_search_posts_featured_image'] );
+
+//post excerpt
+$tech_teller_search_post_excerpt = get_theme_mod( 'tech_teller_enable_search_posts_excerpt', $default['tech_teller_enable_search_posts_excerpt'] );
+
+//post category badge
+$tech_teller_search_post_category_badge = get_theme_mod( 'tech_teller_enable_search_posts_category_badges', $default['tech_teller_enable_search_posts_category_badges'] );
+
+//post tag badge
+$tech_teller_search_post_tag_badge = get_theme_mod( 'tech_teller_enable_search_posts_tag_badges', $default['tech_teller_enable_search_posts_tag_badges'] );
+?>
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'py-2' ); ?>>
+	<div class="container-fluid p-0">
+	  <div class="row">
+	  	<?php 
+	  		if ( has_post_thumbnail() && $tech_teller_search_post_featured_image == true ) :
+
+				tech_teller_post_thumbnail();
+
+				// class for excerpt column
+				$tech_teller_excerpt_column_class = array( 'col-lg-7 col-md-8 pl-2 tt-search-excerpt');
+			else:
+
+				// class for excerpt column
+				$tech_teller_excerpt_column_class = array( 'col-12 px-4 tt-search-excerpt');
+			endif; 
+	  	?>
+		<div class="<?php print_r(esc_attr(implode( ' ', $tech_teller_excerpt_column_class ))); ?>">
+			<div class="row">
+				<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+				<div class="col-12 py-0">
+					<div class="entry-meta">
+						<h5 class="small post-info">
+							<?php
+
+							if ( $tech_teller_search_post_author_meta == true ) :
+								tech_teller_posted_by();
+							endif;
+
+							if ( $tech_teller_search_post_author_meta == true && $tech_teller_search_post_date_meta == true ) : 
+							?> 
+							| 
+							<?php 
+								tech_teller_posted_on(); 
+							elseif ( $tech_teller_search_post_author_meta == false && $tech_teller_search_post_date_meta == true ) :
+								tech_teller_posted_on();
+							endif;
+
+							?>
+						</h5>
+					</div>
+				</div>
+				<?php if ( $tech_teller_search_post_excerpt == true ) : ?>
+				<div class="entry-content">
+					<a href="<?php the_permalink(); ?>" class="excerpt-as-link">
+						<?php the_excerpt(); ?>
+					</a>
+				</div>
+				<?php endif; ?>
+			</div>
+			<div class="row">
+				<a href="<?php the_permalink(); ?>" class="btn btn-tech-teller"><?php _e( 'Continue Reading', 'tech-teller' ); ?></a>
+			</div>
+		</div>
+	  </div>
+	  <div class="row py-2 tech-teller-content-ftr">
+	  	<?php if ( $tech_teller_search_post_category_badge == true ) : ?>
+	  	<div class="col-xs-12 col-sm-6"><?php echo tech_teller_post_category(); ?></div>
+	  	<?php
+
+	  	endif;
+
+	  	if ( $tech_teller_search_post_tag_badge == true ) : 
+	  	?>
+	  	<div class="col-xs-12 col-sm-6"><?php tech_teller_post_tags(); ?></div>
+	  	<?php endif; ?>
+	  </div>
+	</div>
+</article>

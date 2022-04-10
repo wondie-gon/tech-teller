@@ -1,0 +1,203 @@
+
+/*---------------------------------------------
+	admin forms added style
+-----------------------------------------------*/
+.tech-teller-general-form {}
+.tech-teller-general-form input,
+.tech-teller-general-form button,
+.tech-teller-general-form select,
+.tech-teller-general-form optgroup,
+.tech-teller-general-form textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	border: 1px solid #1da1f2;
+	-webkit-border-radius: 4rem;
+	-moz-border-radius: 4rem;
+	border-radius: 4rem;
+}
+.tech-teller-general-form textarea {
+	overflow: auto;
+	resize: vertical; 
+}
+.dashboard-container {
+	width: 100%;
+}
+.dashboard-inner-container {
+	display: block;
+	margin: 0;
+	padding: 0.75rem 0; 
+}
+
+/*---------------------------------------------
+	Welcome and getting started section style
+-----------------------------------------------*/
+.dashboard-grid-tri,
+.dashboard-grid-bi {
+	display: grid;
+	grid-template-rows:auto;
+	padding: 0.75rem;
+	grid-gap: 1rem;
+	transition: all 0.3s ease-in;
+}
+.dashboard-grid-tri {
+	grid-template-columns:1fr 1fr 1fr;
+
+}
+.dashboard-grid-bi {
+	grid-template-columns:1fr 1fr;
+}
+@media (max-width: 768px) {
+	.dashboard-grid-tri,
+	.dashboard-grid-bi {
+		grid-template-columns:1fr;
+		grid-gap: 0;
+	}
+}
+.dashboard-grid-tri .dashboard-col,
+.dashboard-grid-bi .dashboard-col {
+	display: block;
+	padding: 0.75rem 0.5rem 1.5rem;
+	border: none;
+	-webkit-box-shadow: 5px 5px 5px #d9d9d9;
+	-moz-box-shadow: 5px 5px 5px #d9d9d9;
+	box-shadow: 5px 5px 5px #d9d9d9;
+}
+.theme-description {
+	padding: 10px;
+	text-align: left;
+}
+p.welcoming-text {
+	font-size: 18px;
+}
+.theme-description p {
+	font-size: 16px;
+}
+
+/*---------------------------------------------
+	admin buttons and links style
+-----------------------------------------------*/
+.wp-core-ui .button {
+	display: inline-block;
+	font-weight: 200;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: 0.25rem 0.5rem;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.wp-core-ui a.button.link-inside,
+.wp-core-ui a.link-action,
+.wp-core-ui a.button.link-action-extra {
+    margin-top: 1.5rem;
+    height: auto;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+}
+.wp-core-ui a.button.link-inside,
+.wp-core-ui a.link-action {
+	background-color: #031634;
+    color: #d8d8d8;
+}
+.wp-core-ui a.button.link-action-extra {
+	background-color: #d8d8d8;
+    color: #031634;
+}
+.wp-core-ui a.button.link-inside:hover,
+.wp-core-ui a.button.link-inside:focus,
+.wp-core-ui a.link-action:hover,
+.wp-core-ui a.link-action:focus {
+	background-color: #1da1f2;
+    color: #ffffff;
+    text-decoration: none;
+}
+.wp-core-ui a.button.link-action-extra:hover,
+.wp-core-ui a.button.link-action-extra:focus {
+    color: #577ac2;
+    text-decoration: none;
+}
+.wp-core-ui a.button.link-outside {
+	background-color: transparent;
+	color: #577ac2;
+	margin-top: 1rem;
+	text-decoration: underline;
+	border: none;
+	-webkit-border-radius: 0;
+    -moz-border-radius:  0;
+    border-radius: 0;
+}
+.wp-core-ui a.button.link-outside:hover,
+.wp-core-ui a.button.link-outside:focus {
+	color: #33518f;
+	text-decoration: underline;
+}
+
+.mr-lft-1 {
+	margin-left: 0.5rem;
+}
+.mr-rgt-1 {
+	margin-right: 0.5rem;
+}
+
+/*------------------------------------------
+	recommended actions section style
+-------------------------------------------*/
+
+.dashboard-action-box {
+	display: block;
+	width: 100%;
+	background-color: #ebebeb;
+	padding: 0.75rem;
+	margin: 0 0 1rem;
+	border: 1px #cbcbcb solid;
+	-webkit-box-shadow: 5px 5px 5px #d9d9d9;
+	-moz-box-shadow: 5px 5px 5px #d9d9d9;
+	box-shadow: 5px 5px 5px #d9d9d9;
+}
+
+/*------------------------------------------
+	table contents style
+-------------------------------------------*/
+.table {
+	border-spacing: 0;
+	margin: 3rem 0 1rem;
+}
+.free-vs-pro {
+	width: 100%;
+}
+.free-vs-pro th {
+	padding-bottom: 1rem; 
+}
+.free-vs-pro .feature {
+	width: 70%;
+	text-align: left;
+}
+.free-vs-pro .feature-free,
+.free-vs-pro .feature-pro {
+	width: 15%;
+	text-align: center;
+}
+.free-vs-pro th {
+	font-size: 18px;
+}
+.free-vs-pro td {
+	border: none;
+	border-top: 1px #cbcbcb solid;
+}
+.free-vs-pro .feature-btn {
+	width: 30%;
+	text-align: right;
+}
+.free-vs-pro .dashicons-no-alt {
+	color: #ff4500;
+}
+.free-vs-pro .dashicons-yes {
+	color: #1da1f2;
+}
+

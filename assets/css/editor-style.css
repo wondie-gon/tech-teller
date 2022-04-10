@@ -1,0 +1,679 @@
+/*
+Theme Name: Tech Teller
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * Body
+ */
+
+body {
+	background-color: #ffffff;
+  	color: #000000;
+}
+
+/**
+ * Typography
+ */
+a {
+  text-decoration: none;
+  -webkit-text-decoration-skip: objects; 
+}
+a:hover {
+    text-decoration: none; 
+  }
+a:hover,
+a:focus,
+a:active {
+  outline: 0;
+}
+a img {
+  border: 0;
+}
+a:not([href]):not([tabindex]) {
+  text-decoration: none; 
+}
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+    text-decoration: none; 
+  }
+a:not([href]):not([tabindex]):focus {
+    outline: 0; 
+  }
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	line-height: 1.5;
+	color: #151515;
+  	font-weight: 400;
+  	margin-top: 0;
+  	margin-bottom: 0.75rem;
+	padding: 0.75rem 0 0;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	padding-top: 0;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	color: #151515;
+	font-size: 1.3rem;
+}
+
+h3 {
+	color: #151515;
+	font-size: 1.125rem;
+}
+
+h4 {
+	color: #151515;
+	font-size: 1rem;
+}
+
+h5 {
+	color: #727272;
+	font-size: 0.8125rem;
+	letter-spacing: 0.15em;
+}
+
+h6 {
+	color: #151515;
+	font-size: 0.9375rem;
+}
+h1 a, 
+h2 a, 
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.entry-title a {
+  color: #764ba2;
+}
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover,
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover,
+.entry-title a:hover {
+  color: #193764;
+}
+p {
+	margin-top: 0;
+  	margin-bottom: 1rem;
+	padding: 0;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	color: #151515;
+	font-size: 1.125rem;
+	font-style: italic;
+	line-height: 1.7;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+blockquote.alignleft,
+blockquote.alignright {
+	font-size: 14px;
+	font-size: 0.875rem;
+	width: 34%;
+}
+
+address {
+	margin-bottom: 1rem;
+  	font-style: normal;
+  	line-height: inherit;
+}
+
+pre {
+	background: #faf8f8;
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  	font-size: 1em;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  	font-size: 1em;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #151515;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #faf8f8;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+blockquote,
+q {
+	quotes: "" "";
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+/* Typography for Thai Font */
+
+html[lang="th"] h1,
+html[lang="th"] h2,
+html[lang="th"] h3,
+html[lang="th"] h4,
+html[lang="th"] h5,
+html[lang="th"] h6 {
+	letter-spacing: 0;
+	line-height: 1.65;
+}
+
+html[lang="th"] body,
+html[lang="th"] button,
+html[lang="th"] input,
+html[lang="th"] select,
+html[lang="th"] textarea {
+	line-height: 1.8;
+}
+
+/**
+ *  Elements
+ */
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0; }
+
+dt {
+  font-weight: 700; }
+
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0; }
+
+blockquote {
+  margin: 0 0 1rem; }
+
+dfn {
+  font-style: italic; }
+
+b,
+strong {
+  font-weight: bolder; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
+
+table {
+	border-collapse: collapse;
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+figure {
+  margin: 0 0 1rem; }
+
+img {
+  vertical-align: middle;
+  border-style: none; }
+
+svg {
+  overflow: hidden;
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse; }
+
+caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom; }
+
+th {
+  text-align: inherit; }
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem; }
+
+button {
+  border-radius: 0; }
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  padding: 0.25em 0.85em;
+  }
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+button,
+input {
+  overflow: visible; 
+}
+
+button,
+select {
+  text-transform: none; 
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0; 
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+  -webkit-appearance: listbox; 
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical; 
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal; }
+
+/* Fixes linked images */
+
+a img {
+	background: #fff;
+	-webkit-box-shadow: 0 0 0 6px #fff;
+	box-shadow: 0 0 0 6px #fff;
+}
+
+/**
+ *  Alignment
+ */
+
+img {
+	max-width: 100%;
+  	height: auto;
+}
+
+embed,
+iframe,
+object {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+/**
+ * editor style
+ */
+ .wp-editor-container .wp-editor-area {
+ 	padding: 2rem 6rem;
+ 	background: #2c2c2c;
+ 	color: #ebe5e5;
+ 	font-size: 16px;
+ 	letter-spacing: -0.03rem;
+ }
+/**
+ *  Caption
+ */
+
+.wp-caption {
+	opacity: 0.8;
+  	color: #ffffff;
+  	background-color: #000000;
+  	font-weight: 500;
+  	text-align: center;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+.wp-caption {
+	opacity: 1;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+/**
+ *  Galleries
+ */
+
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-item a,
+.gallery-item a:hover,
+.gallery-item a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: none;
+	display: inline-block;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/**
+ *  Media Elements
+ */
+
+.mejs-container {
+	margin-bottom: 1.5em;
+}
+
+/* Audio Player */
+
+.mejs-controls a.mejs-horizontal-volume-slider,
+.mejs-controls a.mejs-horizontal-volume-slider:focus,
+.mejs-controls a.mejs-horizontal-volume-slider:hover {
+	background: transparent;
+	border: 0;
+}
+
+/* Playlist Color Overrides: Light */
+
+.wp-playlist-light {
+	border-color: #faf8f8;
+	color: #e1d8d8;
+}
+
+.wp-playlist-light .wp-playlist-current-item .wp-playlist-item-album {
+	color: #151515;
+}
+
+.wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
+	color: #727272;
+}
+
+.wp-playlist-light .wp-playlist-item {
+	border-bottom: 1px dotted #faf8f8;
+	-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+.wp-playlist-light .wp-playlist-item:hover,
+.wp-playlist-light .wp-playlist-item:focus {
+	border-bottom-color: rgba(0, 0, 0, 0);
+	background-color: #727272;
+	color: #fff;
+}
+
+.wp-playlist-light a.wp-playlist-caption:hover,
+.wp-playlist-light .wp-playlist-item:hover a,
+.wp-playlist-light .wp-playlist-item:focus a {
+	color: #fff;
+}
+
+/* Playlist Color Overrides: Dark */
+
+.wp-playlist-dark {
+	background: #e1d8d8;
+	border-color: #151515;
+}
+
+.wp-playlist-dark .mejs-container .mejs-controls {
+	background-color: #151515;
+}
+
+.wp-playlist-dark .wp-playlist-caption {
+	color: #fff;
+}
+
+.wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-album {
+	color: #faf8f8;
+}
+
+.wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-artist {
+	color: #aaa;
+}
+
+.wp-playlist-dark .wp-playlist-playing {
+	background-color: #151515;
+}
+
+.wp-playlist-dark .wp-playlist-item {
+	border-bottom: 1px dotted #555;
+	-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+.wp-playlist-dark .wp-playlist-item:hover,
+.wp-playlist-dark .wp-playlist-item:focus {
+	border-bottom-color: rgba(0, 0, 0, 0);
+	background-color: #aaa;
+	color: #e1d8d8;
+}
+
+.wp-playlist-dark a.wp-playlist-caption:hover,
+.wp-playlist-dark .wp-playlist-item:hover a,
+.wp-playlist-dark .wp-playlist-item:focus a {
+	color: #e1d8d8;
+}
+
+/* Playlist Style Overrides */
+
+.wp-playlist {
+	padding: 0.625em 0.625em 0.3125em;
+}
+
+.wp-playlist-current-item .wp-playlist-item-title {
+	font-weight: 700;
+}
+
+.wp-playlist-current-item .wp-playlist-item-album {
+	font-style: normal;
+}
+
+.wp-playlist-current-item .wp-playlist-item-artist {
+	font-size: 10px;
+	font-size: 0.625rem;
+	font-weight: 800;
+	letter-spacing: 0.1818em;
+	text-transform: uppercase;
+}
+
+.wp-playlist-item {
+	padding: 0 0.3125em;
+	cursor: pointer;
+}
+
+.wp-playlist-item:last-of-type {
+	border-bottom: none;
+}
+
+.wp-playlist-item a {
+	padding: 0.3125em 0;
+	border-bottom: none;
+}
+
+.wp-playlist-item a,
+.wp-playlist-item a:focus,
+.wp-playlist-item a:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: transparent;
+}
+
+.wp-playlist-item-length {
+	top: 5px;
+}
+
+/**
+ * 8.0 - RTL
+ */
+
+.rtl th {
+	text-align: right;
+}
+
+.rtl ol {
+	counter-reset: item;
+}
+
+.rtl ol li:before {
+	left: auto;
+	right: -1.5em;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+.rtl .mejs-offscreen {
+	right: -10000px;
+}

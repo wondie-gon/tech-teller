@@ -1,0 +1,2233 @@
+/*
+* Theme Name: Tech Teller
+*/
+/* style for custom design */
+a {
+  text-decoration: none;
+  -webkit-text-decoration-skip: objects; 
+}
+a:hover {
+    text-decoration: none; 
+  }
+a:hover,
+a:focus,
+a:active {
+  outline: 0;
+}
+a img {
+  border: 0;
+}
+a:not([href]):not([tabindex]) {
+  text-decoration: none; 
+}
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+    text-decoration: none; 
+  }
+a:not([href]):not([tabindex]):focus {
+    outline: 0; 
+  }
+/*
+* -------------------------------------------------
+* Site header styles for Tech Teller 
+* -------------------------------------------------
+*/
+.tt-header.tech-teller-header-main {
+  display: block;
+  background-color: #040e0a;
+  color: #ffffff;
+}
+/*
+* -------------------------------------------------
+* logo and branding styles for Tech Teller 
+* -------------------------------------------------
+*/
+.tt-brand_logo {}
+.site-logo {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.site-title {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.tt-brand, .site-title .tt-brand {
+  display: block;
+  transition: all 0.3s ease;
+  color: #fcfaf2;
+}
+.site-description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  white-space: pre-line;
+  color: #fcfaf2;
+}
+.tt-brand:hover, .site-title .tt-brand:hover,
+.tt-brand:focus, .site-title .tt-brand:focus {
+  color: #ffffff;
+}
+.tt-header.tech-teller-header-main .header_ad_heading a {
+  color: #e2ae2c;
+}
+.tt-header.tech-teller-header-main .header_ad_heading a:hover, .tt-header.tech-teller-header-main .header_ad_heading a:focus {
+  color: #fcfaf2;
+}
+/*
+* -------------------------------------------------
+* header search, social-media and other buttons style 
+* -------------------------------------------------
+*/
+.header_social_col a.btn-tech-teller-circle {
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  border-radius:50%;
+  padding: 2px 3px;
+  background-color: #fa5151;
+  -webkit-transition:all .3s ease-in-out;
+  -moz-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;
+  color: #ffffff;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.header_social_col a.btn-tech-teller-circle:hover,
+.header_social_col a.btn-tech-teller-circle:focus {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fa5151;
+  border: 1px solid #fa5151;
+}
+@media (max-width: 767.98px) {
+  .header_ad_col, .header_social_col {
+    display: none;
+  }
+}
+.tech-teller-header-main .btn-tech-teller, 
+.tech-teller-header-main a.btn-tech-teller {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #ffffff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); 
+}
+.tech-teller-header-main .btn-tech-teller:hover, 
+.tech-teller-header-main a.btn-tech-teller:hover,
+.tech-teller-header-main .btn-tech-teller:focus, 
+.tech-teller-header-main a.btn-tech-teller:focus {
+  color: #fa5151;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #fa5151;  
+}
+/*
+* -------------------------------------------------
+* navigation menu styles for Tech Teller 
+* -------------------------------------------------
+*/
+.tech-teller-header-main .navbar {
+  background-color: #040e0a;
+}
+.navbar_tech_teller a, .navbar_tech_teller .nav-link {
+  color: #ffffff;
+}
+.navbar_tech_teller a:hover, .navbar_tech_teller .nav-link:hover, .navbar_tech_teller a:focus, .navbar_tech_teller .nav-link:focus {
+  color: #fcfaf2;
+}
+.tech_teller_fixed_nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1700; 
+}
+.tech_teller_fixed_nav .navbar-collapse.tech-teller-navbar-collapse {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (max-width: 767.98px) {
+  .tech-teller-nav {
+    padding: 0.75rem 1.5rem 1.5rem 0.75rem; 
+  }
+  .tech-teller-navbar-collapse {
+    border-top: 1px solid #2b2b2b;
+  }
+  .tech-teller-navbar-collapse.tt-navbar-active,
+  .tech_teller_fixed_nav .tech-teller-navbar-collapse.tt-navbar-active {
+    padding-bottom: 2.25rem;
+  }
+  .tech-teller-menu-col {
+    margin-top: 1rem;
+    padding-left: 0; 
+  }
+  .tech_teller_fixed_nav {
+    min-height: 4rem;
+  }
+}
+.tech-teller-header-main .tech_teller_fixed_nav {
+  background-color: rgba(4, 14, 10, 0.8);
+}
+/*
+* -------------------------------------------------
+* Menu items styles
+* -------------------------------------------------
+*/
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+@media (min-width: 576px) {
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+  }
+}
+@media (min-width: 768px) {
+.nav-link {
+  font-size: 0.875rem;
+  font-weight: 300;
+  }
+}
+@media (min-width: 992px) {
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+  }
+}
+@media (min-width: 1200px) {
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+  }
+}
+.dropdown-toggle::after {
+  margin-left: 0.65em;
+  vertical-align: 0.15em; 
+}
+.menu-item.nav-item:hover > .dropdown-toggle::after,
+.menu-item.nav-item:focus > .dropdown-toggle::after,
+.menu-item.nav-item:active > .dropdown-toggle::after {
+  border: 0.3rem solid transparent; 
+  border-bottom-color: #fcfaf2; 
+  margin-top:-0.3rem;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  border-radius:0.65rem; 
+  -webkit-border-radius:0.65rem; 
+  -moz-border-radius:0.65rem;
+}
+/*
+@media (min-width: 576px) {
+.menu-item.nav-item {
+  margin-right: 0.125rem;
+  }
+}
+@media (min-width: 768px) {
+.menu-item.nav-item {
+  margin-right: 0.25rem;
+  }
+}
+@media (min-width: 992px) {
+.menu-item.nav-item {
+  margin-right: 0.25rem;
+  }
+}
+@media (min-width: 1200px) {
+.menu-item.nav-item {
+  margin-right: 0.5rem;
+  }
+}
+*/
+.menu-item.nav-item {
+  margin-left: 0.5rem;
+  border-radius: 0.65rem;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  text-align: left;
+}
+
+.menu-item.nav-item:hover, .menu-item.nav-item:focus {
+  background-image: linear-gradient(to bottom, #2c2c2c 0%, #1a1a1a 100%);
+}
+.dropdown .dropdown-menu {
+  max-height: 0;
+  display: block;
+  padding: 0 0.5rem;
+  overflow: hidden;
+  opacity: 0;
+  border-radius: 0.65rem;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+  transform-origin: top center;
+  transform: scale(1,0);
+}
+@media(min-width: 768px) {
+  .dropdown .dropdown-menu {
+    padding: 0;
+  }
+}
+.dropdown-item {
+  color: #ffffff;
+  padding: 0.5rem;
+  padding-left: 0;
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #fcfaf2;
+}
+.dropdown.show .dropdown-menu.show {
+  max-height: 500px;
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*
+* -------------------------------------------------
+* menu icon
+* -------------------------------------------------
+*/
+.navbar-toggler {
+  position: fixed;
+  top: 3%;
+  z-index: 12000;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.navbar-toggler.toggler-right {
+  right: 1%;
+}
+.navbar-toggler.toggler-left {
+  left: 1%;
+}
+.tt-menu-button .tt-toggler-grid {
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #fcfaf2;
+  color: #fcfaf2;
+  transition: 0.6s; 
+}
+.tt-menu-button .tt-toggler-grid {
+  box-shadow: -0.75rem -0.75rem, 0 -0.75rem, 0.75rem -0.75rem, 0.75rem 0, 0.75rem 0.75rem, 0 0.75rem, -0.75rem 0.75rem, -0.75rem 0;
+}
+.tt-menu-button.close .tt-toggler-grid {
+  display: block;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg) scale3d(0.8, 0.8, 0.8);
+  transform: rotate3d(0, 0, 1, -45deg) scale3d(0.8, 0.8, 0.8);
+  box-shadow: -0.75rem -0.75rem transparent, 0 -0.75rem, 0.75rem -0.75rem transparent, 0.75rem 0, 0.75rem 0.75rem transparent, 0 0.75rem, -0.75rem 0.75rem transparent, -0.75rem 0;
+}
+
+.tt-menu-button .tt-toggler-bar {
+  display: inline-block;
+  width: 3rem;
+  height: 0.3rem;
+  background: #fcfaf2;
+  border-radius: 0.28571rem;
+  transition: 0.3s;
+  position: relative;
+}
+.tt-menu-button .tt-toggler-bar:before, .tt-toggler-bar:after {
+  display: inline-block;
+  width: 3rem;
+  height: 0.3rem;
+  background: #fcfaf2;
+  border-radius: 0.28571rem;
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  content: '';
+  -webkit-transform-origin: 0.28571rem center;
+  transform-origin: 0.28571rem center;
+}
+.tt-menu-button .tt-toggler-bar:before {
+  top: 0.75rem;
+}
+.tt-menu-button .tt-toggler-bar:after {
+  top: -0.75rem;
+}
+.tt-menu-button.close {
+  padding: 1rem;
+  background-color: transparent;
+  border: 0;
+}
+.tt-menu-button.close .tt-toggler-bar {
+  -webkit-transform: scale3d(0.8, 0.8, 0.8);
+  transform: scale3d(0.8, 0.8, 0.8);
+  background: transparent;
+}
+.tt-menu-button.close .tt-toggler-bar:before, .tt-menu-button.close .tt-toggler-bar:after {
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  top: 0;
+  width: 3rem;
+}
+.tt-menu-button.close .tt-toggler-bar:before {
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate3d(0, 0, 1, 45deg);
+}
+.tt-menu-button.close .tt-toggler-bar:after {
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+}
+
+/*
+* -------------------------------------------------
+* search box, search result etc styles for Tech Teller
+* -------------------------------------------------
+*/
+#wfSearchTrigger {
+  position: absolute;
+  right: 0;
+}
+.tech-teller-search-form {
+    display: none;
+    position: relative;
+    bottom: 0;
+  }
+.tech-teller-search-box .tech-teller-search-form {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.tech-teller-search-form .tech-teller-search-control { 
+  border-radius: 0.85rem;
+  -webkit-border-radius: 0.85rem;
+  -moz-border-radius: 0.85rem;
+  -webkit-transition:width .5s ease-in-out;
+  -moz-transition:width .5s ease-in-out;
+  transition:width .5s ease-in-out;
+}
+.tech-teller-no-results .tech-teller-search-form {
+  display: block;
+}
+.tech-teller-no-results #wfSearchTrigger {
+  display: none;
+}
+@media (min-width: 240px) {
+  #wfSearchTrigger {
+    right: auto;
+    left: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #wfSearchTrigger {
+    right: 0;
+    left: auto;
+    margin-bottom: 0;
+  }
+  .tech-teller-search-form {
+    position: absolute;
+    right: 0;
+    width: auto;
+  }
+}
+
+.tt-search-excerpt h4 a, 
+.tt-search-excerpt a.excerpt-as-link {
+  text-decoration: underline;
+  color: #3288be;
+}
+
+.tt-search-excerpt h4 a:hover, 
+.tt-search-excerpt a.excerpt-as-link:hover,
+.tt-search-excerpt h4 a:focus, 
+.tt-search-excerpt a.excerpt-as-link:focus {
+  text-decoration: underline;
+  color: #764ba2;
+}
+
+/*
+* -------------------------------------------------
+* background styles for Tech Teller 
+* -------------------------------------------------
+*/
+.bg_tech_teller_dark {
+  background-color: #040e0a;
+  color: #ffffff; 
+}
+.bg_tech_teller_light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/*
+* -------------------------------------------------
+* headings, sub-headings, headers styles for Tech Teller
+* -------------------------------------------------
+*/
+.bg_tech_teller_dark h1, .bg_tech_teller_dark h2, .bg_tech_teller_dark h3, .bg_tech_teller_dark h4, .bg_tech_teller_dark h5, .bg_tech_teller_dark h6 {
+  color: #f3a83c;
+  font-weight: 400;
+}
+.bg_tech_teller_light h1, .bg_tech_teller_light h2, .bg_tech_teller_light h3, .bg_tech_teller_light h4, .bg_tech_teller_light h5, .bg_tech_teller_light h6 {
+  color: #151515;
+  font-weight: 400;
+}
+.tech-teller-h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.tech-teller-h2 {
+  font-size: 1.3rem;
+  font-weight: 400
+}
+.tech-teller-h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.single-post-author {
+  font-size: 1rem;
+}
+.frontpage-section-heading {
+  border-bottom: 2px solid #fa5151;
+}
+.frontpage-section-heading h1 {
+  width: 14rem;
+  color: #ffffff;
+  margin-left: -1rem;
+  margin-bottom: -2.25rem;
+  background-color: #fa5151;
+  background-clip: border-box;
+  border-top-left-radius: 50%;
+  -webkit-border-top-left-radius: 50%;
+  -moz-border-top-left-radius: 50%;
+}
+
+/*
+* -------------------------------------------------------
+* post-link styles on various background colors for Tech Teller 
+* -------------------------------------------------------
+*/
+.bg_tech_teller_dark a, 
+.bg_tech_teller_light a {
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+}
+.bg_tech_teller_dark h1 a, 
+.bg_tech_teller_dark h2 a, 
+.bg_tech_teller_dark h3 a,
+.bg_tech_teller_dark h4 a,
+.bg_tech_teller_dark h5 a,
+.bg_tech_teller_dark h6 a,
+.bg_tech_teller_dark .tech-teller-h1 a, 
+.bg_tech_teller_dark .tech-teller-h2 a, 
+.bg_tech_teller_dark .tech-teller-h3 a,
+.bg_tech_teller_dark .entry-title a {
+  color: #fcfaf2;
+}
+.bg_tech_teller_dark h1 a:hover, 
+.bg_tech_teller_dark h1 a:focus, 
+.bg_tech_teller_dark h1 a:active, 
+.bg_tech_teller_dark h2 a:hover, 
+.bg_tech_teller_dark h2 a:focus, 
+.bg_tech_teller_dark h2 a:active, 
+.bg_tech_teller_dark h3 a:hover,
+.bg_tech_teller_dark h3 a:focus,
+.bg_tech_teller_dark h3 a:active,
+.bg_tech_teller_dark h4 a:hover,
+.bg_tech_teller_dark h4 a:focus,
+.bg_tech_teller_dark h4 a:active,
+.bg_tech_teller_dark h5 a:hover,
+.bg_tech_teller_dark h5 a:focus,
+.bg_tech_teller_dark h5 a:active,
+.bg_tech_teller_dark h6 a:hover,
+.bg_tech_teller_dark h6 a:focus,
+.bg_tech_teller_dark h6 a:active,
+.bg_tech_teller_dark .tech-teller-h1 a:hover, 
+.bg_tech_teller_dark .tech-teller-h1 a:focus, 
+.bg_tech_teller_dark .tech-teller-h1 a:active, 
+.bg_tech_teller_dark .tech-teller-h2 a:hover, 
+.bg_tech_teller_dark .tech-teller-h2 a:focus, 
+.bg_tech_teller_dark .tech-teller-h2 a:active, 
+.bg_tech_teller_dark .tech-teller-h3 a:hover,
+.bg_tech_teller_dark .tech-teller-h3 a:focus,
+.bg_tech_teller_dark .tech-teller-h3 a:active,
+.bg_tech_teller_dark .entry-title a:hover,
+.bg_tech_teller_dark .entry-title a:focus,
+.bg_tech_teller_dark .entry-title a:active {
+  color: #e2ae2c;
+}
+.bg_tech_teller_light h1 a, 
+.bg_tech_teller_light h2 a, 
+.bg_tech_teller_light h3 a,
+.bg_tech_teller_light h4 a,
+.bg_tech_teller_light h5 a,
+.bg_tech_teller_light h6 a,
+.bg_tech_teller_light .tech-teller-h1 a, 
+.bg_tech_teller_light .tech-teller-h2 a, 
+.bg_tech_teller_light .tech-teller-h3 a,
+.bg_tech_teller_light .entry-title a {
+  color: #3a6073;
+}
+.bg_tech_teller_light h1 a:hover, 
+.bg_tech_teller_light h1 a:focus,
+.bg_tech_teller_light h1 a:active,
+.bg_tech_teller_light h2 a:hover, 
+.bg_tech_teller_light h2 a:focus,
+.bg_tech_teller_light h2 a:active,
+.bg_tech_teller_light h3 a:hover,
+.bg_tech_teller_light h3 a:focus,
+.bg_tech_teller_light h3 a:active,
+.bg_tech_teller_light h4 a:hover, 
+.bg_tech_teller_light h4 a:focus,
+.bg_tech_teller_light h4 a:active,
+.bg_tech_teller_light h5 a:hover, 
+.bg_tech_teller_light h5 a:focus,
+.bg_tech_teller_light h5 a:active,
+.bg_tech_teller_light h6 a:hover,
+.bg_tech_teller_light h6 a:focus,
+.bg_tech_teller_light h6 a:active,
+.bg_tech_teller_light .tech-teller-h1 a:hover, 
+.bg_tech_teller_light .tech-teller-h1 a:focus,
+.bg_tech_teller_light .tech-teller-h1 a:active,
+.bg_tech_teller_light .tech-teller-h2 a:hover, 
+.bg_tech_teller_light .tech-teller-h2 a:focus, 
+.bg_tech_teller_light .tech-teller-h2 a:active, 
+.bg_tech_teller_light .tech-teller-h3 a:hover,
+.bg_tech_teller_light .tech-teller-h3 a:focus,
+.bg_tech_teller_light .tech-teller-h3 a:active,
+.bg_tech_teller_light .entry-title a:hover,
+.bg_tech_teller_light .entry-title a:focus,
+.bg_tech_teller_light .entry-title a:active {
+  color: #15151b;
+}
+/*
+* -------------------------------------------------
+*           Tech Teller button styles 
+* -------------------------------------------------
+*/
+.btn-tech-teller, .btn-tech-teller-ad, 
+a.btn-tech-teller {
+  font-weight: 500;
+  -webkit-transition:all .3s ease-in-out;
+  -moz-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;
+}
+.bg_tech_teller_light .btn-tech-teller-ad {
+  position: absolute;
+  left: 35%;
+  bottom: 25%;
+  color: #ffffff;
+  background: #000428;
+  background: -webkit-linear-gradient(to top, #004e92, #000428); 
+  background: linear-gradient(to top, #004e92, #000428); 
+  border-color: #000428;
+}
+.bg_tech_teller_light .btn-tech-teller-ad:hover,
+.bg_tech_teller_light .btn-tech-teller-ad:focus {
+  color: #ffffff;
+  background: #004e92;  
+  background: -webkit-linear-gradient(to right, #000428, #004e92); 
+  background: linear-gradient(to right, #000428, #004e92); 
+  border-color: #61045f; 
+}
+.bg_tech_teller_dark .btn-tech-teller, 
+.bg_tech_teller_dark a.btn-tech-teller,
+.bg_tech_teller_dark a.btn-tech-teller.featured_blog_link {
+  border: 1px #fa5151 solid;
+  background-color: #fa5151;
+  color: #ffffff;
+  cursor: pointer;
+}
+.bg_tech_teller_dark .btn-tech-teller:hover, 
+.bg_tech_teller_dark a.btn-tech-teller:hover,
+.bg_tech_teller_dark a.btn-tech-teller.featured_blog_link:hover,
+.bg_tech_teller_dark .btn-tech-teller:focus, 
+.bg_tech_teller_dark a.btn-tech-teller:focus,
+.bg_tech_teller_dark a.btn-tech-teller.featured_blog_link:focus,
+.bg_tech_teller_dark .btn-tech-teller:active, 
+.bg_tech_teller_dark a.btn-tech-teller:active,
+.bg_tech_teller_dark a.btn-tech-teller.featured_blog_link:active {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.bg_tech_teller_light .btn-tech-teller, 
+.bg_tech_teller_light a.btn-tech-teller,
+.bg_tech_teller_light a.btn-tech-teller.featured_blog_link {
+  color: #3a6073;
+  background-color: transparent;
+  border-color: #3a6073;
+}
+.bg_tech_teller_light .btn-tech-teller:hover, 
+.bg_tech_teller_light a.btn-tech-teller:hover,
+.bg_tech_teller_light a.btn-tech-teller.featured_blog_link:hover,
+.bg_tech_teller_light .btn-tech-teller:focus, 
+.bg_tech_teller_light a.btn-tech-teller:focus,
+.bg_tech_teller_light a.btn-tech-teller.featured_blog_link:focus,
+.bg_tech_teller_light .btn-tech-teller:active, 
+.bg_tech_teller_light a.btn-tech-teller:active,
+.bg_tech_teller_light a.btn-tech-teller.featured_blog_link:active {
+  background-color: #fa5151;
+  color: #ffffff;
+  border: 1px #fa5151 solid; 
+}
+
+/*
+* ----------------------
+* Pagination styles
+* ----------------------
+*/
+.pagination {
+  margin-left: 0.5rem;
+}
+.navigation.pagination .screen-reader-text {
+  display: none;
+}
+.navigation.pagination .page-numbers {
+  display: inline-block;
+  line-height: 1.2;
+  width: 2.5rem;
+  height: 2rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 0.25rem;
+  margin-right: 0.5rem;
+  background-color: transparent;
+  color: #151515;
+  border: 1px #fa5151 solid;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  border-radius: 0.65rem;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+.navigation.pagination .page-numbers.current,
+.navigation.pagination .page-numbers.current:hover,
+.navigation.pagination .page-numbers.current:focus {
+  background-color: #1e3c72;
+  color: #ffffff;
+  border: 1px #1e3c72 solid;
+}
+.navigation.pagination .page-numbers:hover,
+.navigation.pagination .page-numbers:focus,
+.navigation.pagination .page-numbers:active {
+  background-color: #fa5151;
+  color: #ffffff;
+  border:1px #fa5151 solid;
+} 
+.navigation.pagination .prev.page-numbers,
+.navigation.pagination .next.page-numbers {
+  width: auto;
+  background-color: #fa5151;
+  color: #ffffff;
+  border: 1px #fa5151 solid;
+}
+.navigation.pagination .prev.page-numbers:hover,
+.navigation.pagination .prev.page-numbers:focus,
+.navigation.pagination .next.page-numbers:hover,
+.navigation.pagination .next.page-numbers:focus {
+  background-color: #1e3c72;
+  color: #ffffff;
+  border: 1px #1e3c72 solid;
+}
+/*
+* Breadcrumbs style
+*/
+#breadcrumbs {
+  background-color: #eff7f7;
+}
+#breadcrumbs a {
+  color: #193764;
+}
+#breadcrumbs a:hover,
+#breadcrumbs a:focus {
+  color: #151515;
+}
+#breadcrumbs .breadcrumb_last {
+  color: #151515;
+}
+/*
+* -----------------------------------------------------------------------------------------------------------
+* Headings, social media share, post-info, meta info, author's bio styles for Tech Teller 
+* -----------------------------------------------------------------------------------------------------------
+*/
+.tech-teller-heading-bg {
+  width: 100%;
+  background-color: #fa5151;
+  padding: 0.5rem;
+  color: #ffffff;
+  border-radius: 0.65rem;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  background-clip: padding-box;
+}
+.tech-teller-heading-bg .entry-title, 
+.tech-teller-heading-bg .page-title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+.tech-teller-heading-bg .page-title span {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.tech-teller-single-heading {
+  width: 100%;
+  background-color: #fa5151; 
+}
+.tech-teller-single-heading .entry-title {
+  padding: 10px;
+  color: #ffffff;
+}
+.info-header.tech-teller-heading-bg {
+  width: auto;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+.info-header.tech-teller-heading-bg .info-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+.tech-teller-nav-pills .nav-link {
+  -webkit-border-radius: 0.65rem; 
+  -moz-border-radius: 0.65rem; 
+  border-radius: 0.65rem; 
+}
+.tech-teller-nav-pills .nav-link:hover,
+.tech-teller-nav-pills .nav-link:focus,
+.tech-teller-nav-pills .nav-link.active,
+.tech-teller-nav-pills .show > .nav-link {
+  color: #8224e3;
+  font-weight: bold;
+  background-color: transparent;
+}
+.tech_teller_social_item .social_facebook,
+.social_facebook .fa-facebook {
+  color: #2946f6;
+}
+.tech_teller_social_item .social_twitter,
+.social_twitter .fa-twitter {
+  color: #2aacf6;
+}
+.tech_teller_social_item .social_gplus,
+.social_gplus .fa-google-plus-official {
+  color: #f01322;
+}
+.tech_teller_social_item .social_pinterest,
+.social_pinterest .fa-pinterest-p {
+  color: #bd081c;
+}
+.tech_teller_social_item .social_linkden,
+.social_linkden .fa-linkden {
+  color: #2946f6;
+}
+.tech_teller_social_item .social_instagram,
+.social_instagram .fa-instagram {
+  color: #458eff;
+}
+.bg_tech_teller_dark .post-info a,
+.bg_tech_teller_dark .post-meta, 
+.bg_tech_teller_dark .post-info {
+  color: #e29587;
+}
+.bg_tech_teller_dark .post-info a:hover, 
+.bg_tech_teller_dark .post-info a:focus,
+.bg_tech_teller_dark .post-meta:hover,
+.bg_tech_teller_dark .post-meta:focus {
+  color: #d66d75;
+}
+.bg_tech_teller_light .post-info a, 
+.bg_tech_teller_light .post-info {
+  color: #999;
+}
+.bg_tech_teller_light .post-info a:hover, 
+.bg_tech_teller_light .post-info a:focus  {
+  color: #7a6a6a;
+}
+.entry-meta {
+  display: inline-block;
+}
+.post-info {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.author-bio {
+  color: #1b0a0a;
+}
+.author-social-hdg {
+  color: #243B55;
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 2px solid #6a9113;
+}
+
+.page-content, .entry-content, .entry-summary {
+  margin: 0 1.5rem 0 0;
+}
+/*
+* -------------------------------------------------
+* border-radius, box-shadow, outlines styles for Tech Teller
+* -------------------------------------------------
+*/
+.tech-teller-rounded {
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  border-radius: 0.65rem;
+  background-clip: padding-box;
+}
+.tech-teller-shadow {
+  box-shadow: 2px 2px #f3e7e9, -0.25em 0 0.25em #e3eeff;
+}
+/*
+* -------------------------------------------------
+* images, bg-image styles for Tech Teller
+* -------------------------------------------------
+*/
+.bg-tech-teller-img {
+  background-clip: border-box;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: local;
+}
+h1.featured-review-title a.link-on-img,
+.bg-tech-teller-img, 
+.bg-tech-teller-img p, 
+.bg-tech-teller-img a, 
+a.link-on-img, 
+.bg-tech-teller-img h1 a {
+  color: #ffffff;
+}
+.bg-tech-teller-img a, a.link-on-img {
+  transition: all 0.3s ease;
+}
+h1.featured-review-title a.link-on-img:hover,
+.bg-tech-teller-img a:hover, 
+a.link-on-img:hover,
+h1.featured-review-title a.link-on-img:focus, 
+.bg-tech-teller-img a:focus, 
+a.link-on-img:focus, 
+.bg-tech-teller-img h1 a:hover, 
+.bg-tech-teller-img h1 a:focus {
+  color: #fffc09;
+}
+a.link-on-img:hover,
+a.link-on-img:focus {
+  font-weight: 400;
+}
+.post-thumbnail-wrap {
+  display: block;
+  height: 240px;
+}
+@keyframes scaleUpImgLink {
+  from {
+    opacity: 0.9;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1); }
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-font-smoothing: antialiased; } 
+  }
+@-webkit-keyframes scaleUpImgLink {
+  from {
+    opacity: 0.9;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1); }
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-font-smoothing: antialiased; } 
+  }
+@keyframes fadeOutBottom {
+  from {
+    opacity: 0.9;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 10%);
+    -moz-transform: translate(0, 10%);
+    transform: translate(0, 10%);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-font-smoothing: antialiased; } }
+@-webkit-keyframes fadeOutBottom {
+  from {
+    opacity: 0.9;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 10%);
+    -moz-transform: translate(0, 10%);
+    transform: translate(0, 10%);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-font-smoothing: antialiased; } }
+
+.hasImgLinks {
+  position: relative;
+  overflow: hidden;
+  background-clip: border-box;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  border-radius: 0.65rem;
+  min-height: 120px;
+}
+.hasImgLinks img {
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+.hasImgLinks img:hover {
+  animation: scaleUpImgLink .8s ease forwards;
+  -webkit-animation: scaleUpImgLink .8s ease forwards;
+}
+.tech-teller-post-list img {
+  width: 100%;
+  height: auto;
+  max-height: 270px;
+}
+.bg_tech_teller_light .post-header {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+.bg_tech_teller_light .post-header h3 {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+  position: relative;
+  width: 100%;
+}
+.post-header h3::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  margin-left: 15px;
+  background-color: #fa5151;
+}
+
+.wp-block-image figcaption {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    color: #555d66;
+    text-align: left;
+    font-size: 13px;
+}
+/*
+* -------------------------------------------------
+* btn, badge, winplate position styles for Tech Teller
+* -------------------------------------------------
+*/
+.tech-teller-btm-left {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;
+  z-index: 100;
+  padding:0.25rem; 
+}
+.tech-teller-btm-right {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+  z-index: 100;
+  padding:0.25rem; 
+}
+.tech-teller-top-left {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  z-index: 100;
+  padding:0.25rem; 
+}
+.tech-teller-top-right {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  z-index: 100;
+  padding:0.25rem; 
+}
+/*
+* -------------------------------------------------
+* nameplate or badge styles for Tech Teller
+* -------------------------------------------------
+*/
+.winplate {
+  display: inline-block;
+  padding: 0.25em 0.85em;
+  font-size: 87.5%;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align:middle;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  border-radius: 0.65rem; 
+}
+.tech-teller-post-list .winplate {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  z-index: 100;
+  padding:0.25rem;
+}
+.winplate:empty {
+  display: none; 
+}
+.btn .winplate {
+  position: relative;
+  top: -1px; 
+}
+.plate-rounded {
+  padding-right: 0.65em;
+  padding-left: 0.65em;
+  border-radius: 6rem;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem; 
+}
+span.plate-tech-teller {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #ff9068; 
+}
+span.plate-tech-teller:nth-child(even) {
+  margin-left: 1rem;
+}
+.plate-tech-teller a, 
+a.plate-tech-teller, 
+.plate-tech-teller a:hover, 
+.plate-tech-teller a:focus, 
+.plate-tech-teller a:active, 
+a.plate-tech-teller:hover, 
+a.plate-tech-teller:focus, 
+a.plate-tech-teller:active {
+  color: #ffffff; 
+}
+.plate-tech-teller[href]:hover, 
+.plate-tech-teller[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #e43a15; 
+}
+.plate-tech-teller:hover {
+  background-color: #e43a15;
+}
+.plate-tech-teller-2nd {
+  background-color: #fe8c00; 
+}
+.plate-tech-teller-2nd a {
+  color: #ffffff;
+}
+.plate-tech-teller-2nd a:hover, 
+.plate-tech-teller-2nd a:focus, 
+.plate-tech-teller-2nd a:active, 
+a.plate-tech-teller-2nd:hover, 
+a.plate-tech-teller-2nd:focus, 
+a.plate-tech-teller-2nd:active {
+  color: #141E30;
+}
+.plate-tech-teller-2nd[href]:hover, 
+.plate-tech-teller-2nd[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #f83600; 
+}
+.plate-tech-teller-2nd:hover {
+  background-color: #f83600; 
+}
+.plate-tech-teller-tag {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #753a88;
+  border: 1px #753a88 solid;
+  cursor: pointer;
+}
+.plate-tech-teller-tag a {
+  color: #ffffff;
+}
+.plate-tech-teller-tag a:hover, .plate-tech-teller-tag a:focus, .plate-tech-teller-tag a:active, 
+.plate-tech-teller-tag:hover, .plate-tech-teller-tag:focus, .plate-tech-teller-tag:active, 
+.plate-tech-teller-tag[href]:hover, .plate-tech-teller-tag[href]:focus {
+  text-decoration: none;
+  background-color: transparent;
+  color: #753a88;
+}
+.plate-tech-teller-tag:hover a {
+  color: #753a88;
+}
+a.plate-tech-teller-author {
+  color: #d9ebF5;
+  background: #537895;
+  background: -webkit-linear-gradient(to right, #09203f, #537895);
+  background: linear-gradient(to right, #09203f, #537895); 
+}
+a.plate-tech-teller-author:hover, a.plate-tech-teller-author:focus, a.plate-tech-teller-author:active, 
+.plate-tech-teller-author[href]:hover, .plate-tech-teller-author[href]:focus {
+  color: #E9C697;
+  text-decoration: none;
+  background: #2a5298; 
+  background: -webkit-linear-gradient(to top, #1e3c72, #2a5298);
+  background: linear-gradient(to top, #1e3c72, #2a5298);
+}
+
+.plate-tech-teller-comment {
+  color: #ffffff;
+  background-color: #fa5151; 
+}
+.plate-tech-teller-comment a {
+  color: #ffffff;
+}
+.plate-tech-teller-comment a:hover, .plate-tech-teller-comment a:focus, .plate-tech-teller-comment a:active {
+  color: #F0F2F0;
+}
+.plate-tech-teller-comment[href]:hover, .plate-tech-teller-comment[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #e2ae2c; 
+}
+/*
+* -------------------------------------------------
+* Home slick slider styles for Tech Teller
+* -------------------------------------------------
+*/
+.tt-slick-slider .slick-slide {
+  margin: 0px 25px;
+}
+.tt-slick-slider {
+  margin-left: auto;
+  margin-right: auto;
+}
+.tt-slick-slider .slick-slide img {
+  width: 100%;
+  max-height: 380px;
+}
+/* Custom slick styles */
+/* Arrows */
+.tt-slick-slider .slick-prev,
+.tt-slick-slider .slick-next
+{
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  color: transparent;
+  display: block;
+  height: 0;
+  width: 0;
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  z-index: 1060;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+.tt-slick-slider .slick-prev {
+  border-right: 20px solid #fa5151;
+  left: 0;
+  border-left: 0;
+}
+
+.tt-slick-slider .slick-next {
+  border-left: 20px solid #fa5151;
+  right: 0;
+  border-right: 0;
+}
+
+.tt-slick-slider .slick-prev:hover,
+.tt-slick-slider .slick-prev:focus,
+.tt-slick-slider .slick-next:hover,
+.tt-slick-slider .slick-next:focus
+{
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+.tt-slick-slider .slick-prev:hover,
+.tt-slick-slider .slick-prev:focus {
+  border-right: 30px inset #e2ae2c;
+}
+.tt-slick-slider .slick-next:hover,
+.tt-slick-slider .slick-next:focus {
+  border-left: 30px inset #e2ae2c;
+}
+.tt-slick-slider .slick-prev:hover:before,
+.tt-slick-slider .slick-prev:focus:before,
+.tt-slick-slider .slick-next:hover:before,
+.tt-slick-slider .slick-next:focus:before
+{
+  opacity: 1;
+}
+.tt-slick-slider .slick-prev.slick-disabled:before,
+.tt-slick-slider .slick-next.slick-disabled:before
+{
+  opacity: .25;
+}
+
+.tt-slick-slider .slick-prev:before,
+.tt-slick-slider .slick-next:before
+{
+  content: '';
+}
+
+.tt-slick-slider .slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .8;
+}
+.tt-slick-slider .slick-active {
+  opacity: .8;
+}
+.slider-news-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.slider-news-title a {
+  color: #ffffff;
+}
+.slider-news-title a:hover,
+.slider-news-title a:focus {
+  color: #edd717;
+}
+@media (min-width: 1200px) {
+.slider-news-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  }
+}
+@media (min-width: 768px) {
+.slider-news-title {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  }
+}
+
+/* style for continous/infinite slider */
+.tt-continous-slider .slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.tt-continous-slider .slick-active {
+  opacity: .4;
+}
+.tt-continous-slider .slick-current {
+  opacity: 1;
+}
+.tt-continous-slider .slick-current:hover {
+  opacity: 0.8;
+}
+.tt-continous-slider .slick-prev,
+.tt-continous-slider .slick-next
+{
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  color: transparent;
+  display: block;
+  height: 0;
+  width: 0;
+  font-size: 0;
+  position: absolute;
+  top: 35%;
+  z-index: 1060;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+.tt-continous-slider .slick-prev {
+  border-right: 20px solid #fa5151;
+  left: -0.75rem;
+  border-left: 0;
+}
+.tt-continous-slider .slick-next {
+  border-left: 20px solid #fa5151;
+  right: -0.75rem;
+  border-right: 0;
+}
+@media (min-width: 576px) {
+  .tt-continous-slider .slick-prev {
+    left: -1.5rem;
+  }
+  .tt-continous-slider .slick-next {
+    right: -1.5rem;
+  }
+}
+.tt-continous-slider .slick-prev:hover,
+.tt-continous-slider .slick-prev:focus,
+.tt-continous-slider .slick-next:hover,
+.tt-continous-slider .slick-next:focus
+{
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+.tt-continous-slider .slick-prev:hover,
+.tt-continous-slider .slick-prev:focus {
+  border-right: 30px inset #e2ae2c;
+}
+.tt-continous-slider .slick-next:hover,
+.tt-continous-slider .slick-next:focus {
+  border-left: 30px inset #e2ae2c;
+}
+.tt-continous-slider .slick-prev:hover:before,
+.tt-continous-slider .slick-prev:focus:before,
+.tt-continous-slider .slick-next:hover:before,
+.tt-continous-slider .slick-next:focus:before
+{
+  opacity: 1;
+}
+.tt-continous-slider .slick-prev.slick-disabled:before,
+.tt-continous-slider .slick-next.slick-disabled:before
+{
+  opacity: .25;
+}
+.tt-continous-slider .slick-prev:before,
+.tt-continous-slider .slick-next:before
+{
+  content: '';
+}
+.tt-continous-slider .tech-teller-slick-inner {
+  transition: all ease-in-out .3s;
+}
+.tech-teller-slick-inner img {
+  min-height: none;
+}
+.tt-continous-slider .slider-overlay-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0.5rem;
+  background-color: #000000;
+  opacity: 0.4;
+  transition: all ease-in-out .3s;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.tt-continous-slider .slider-overlay-title:hover {
+  padding: 0.6rem;
+  opacity: 0.7;
+}
+.tt-continous-slider .slider-overlay-title a {
+  color: #ffffff;
+}
+.tt-continous-slider .slider-overlay-title a:hover,
+.tt-continous-slider .slider-overlay-title a:focus {
+  color: #edd717;
+}
+@media (min-width: 1200px) { 
+.tt-continous-slider .slider-overlay-title {
+  font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) { 
+.tt-continous-slider .slider-overlay-title {
+  font-size: 1rem;
+  }
+}
+
+/*
+* -------------------------------------------------
+* Sidebar, list-group, list-group-items styles for Tech Teller
+* -------------------------------------------------
+*/
+h3.side-widget-title {
+  background-color: #fa5151;
+  color: #ffffff;
+  font-weight: 400;
+  -webkit-border-radius: 0.65rem 0.65rem 0 0;
+  -moz-border-radius: 0.65rem 0.65rem 0 0;
+  border-radius: 0.65rem 0.65rem 0 0;
+  -webkit-box-shadow: 2px 2px #f5dbdb, -0.25em 0 0.25em #bf7a7a;
+  -moz-box-shadow: 2px 2px #f5dbdb, -0.25em 0 0.25em #bf7a7a;
+  box-shadow: 2px 2px #f5dbdb, -0.25em 0 0.25em #bf7a7a;
+}
+.side-widget .list-group {
+  border: none;
+  -webkit-box-shadow: 2px 2px #faf8f8, -0.25em 0 0.25em #cbd4dc;
+  -moz-box-shadow: 2px 2px #faf8f8, -0.25em 0 0.25em #cbd4dc;
+  box-shadow: 2px 2px #faf8f8, -0.25em 0 0.25em #cbd4dc;
+}
+.side-widget ul.list-group {
+  margin: 0;
+}
+.side-widget .list-group .list-group-item {
+  border:none;
+  border-bottom: 2px solid transparent;
+}
+.side-widget .list-group .list-group-item:last-child {
+  border:none;
+}
+.side-widget .list-group .list-group-item a {
+  display: block;
+  color: #3a6073;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.side-widget .list-group .list-group-item a:hover, 
+.side-widget .list-group .list-group-item a:focus,
+.side-widget .list-group .list-group-item a:active {
+  color: #15151b;
+}
+
+/*
+* -------------------------------------------------
+* sidebar advertisement section styles
+* -------------------------------------------------
+*/
+.sidebar_ad_sec {
+  display: block;
+  position: relative;
+  width: 99%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #E0EAFC;
+  background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC); 
+  background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); 
+
+}
+.bg_tech_teller_light .sidebar_ad_heading {
+  color: #ffffff;
+  font-weight: 500;
+}
+.bg_tech_teller_light .side_ad_text {
+  color: #ffffff;
+  font-weight: bold;
+}
+.bg_tech_teller_light .sidebar_ad_heading a {
+  color: #ffffff;
+  font-weight: 500;
+}
+.bg_tech_teller_light .sidebar_ad_heading a:hover,
+.bg_tech_teller_light .sidebar_ad_heading a:focus {
+  color: #ffffff;
+  font-weight: 600;
+}
+.sidebar_img_link img {
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.sidebar_img_link img:hover {
+  opacity: 0.8;
+}
+
+/*
+* ----------------------------------------------------------------
+* audio, video post formats styles for Tech Teller
+* ----------------------------------------------------------------
+*/
+.bg_tech_teller_video {
+  background: #fa5151;
+  background: -webkit-linear-gradient(to top, #fa5151, #040e0a);
+  background: linear-gradient(to top, #fa5151, #040e0a);
+}
+.video-section-heading {
+  display: block;
+  width: 14rem;
+  color: #ffffff;
+  background-color: #fa5151;
+  background-clip: border-box;
+  border-top-left-radius: 50%;
+  -webkit-border-top-left-radius: 50%;
+  -moz-border-top-left-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.video-list,
+.audio-list {
+  border: none;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+.video-list .card-body {
+  padding: 0 0 0.5rem 1.25rem;
+}
+.tech-teller-video .card .winplate, 
+.tech-teller-video .winplate {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+.tt-media-title,
+.tt-media-title a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.tech-teller-audio .tt-content iframe,
+.tech-teller-audio .tt-content audio {
+  width: 100%;
+  height: 172px;
+}
+.tech-teller-video .tt-content iframe,
+.tech-teller-video .tt-content video,
+.tech-teller-video .tt-content embed,
+.tech-teller-video .tt-content object {
+  width: 100%;
+  height: 280px;
+}
+/*.tech-teller-video #controlBar.controlBar {
+  display: none !important;
+}*/
+.tech-teller-video .tt-video-texts {
+  display: none;
+  height: 0;
+}
+.tech-teller-video .tt-video-texts.ready,
+.tech-teller-video:hover .tt-video-texts.ready {
+  display: block;
+}
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  padding: 0;
+}
+.tech-teller-video::before {
+  padding-top: 75%;
+}
+.tech-teller-audio::before {
+  padding-top: 35%;
+}
+embed, video, object {
+  cursor: pointer;  
+}
+.btn-group.media-share-btns {
+  width: 100%;
+  height: 2.2rem;
+}
+.media-share-btns .btn-tech-teller-share {
+  padding: 0.4rem;
+  border-color: #fa5151;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  border-radius: 0.65rem;
+}
+.media-share-btns .btn-tech-teller-share,
+.media-share-btns .btn-tech-teller-share .fa {
+  background-color: #fa5151;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.media-share-btns .btn-tech-teller-share:hover,
+.media-share-btns .btn-tech-teller-share:focus,
+.media-share-btns .btn-tech-teller-share:active,
+.media-share-btns .btn-tech-teller-share:hover .fa,
+.media-share-btns .btn-tech-teller-share:focus .fa,
+.media-share-btns .btn-tech-teller-share:active .fa {
+  color: #edd717;
+  background-color: #8224e3;
+  border-color: #8224e3;
+}
+.media-sharer-group {
+  display: none;
+  width: 0;
+  margin-left: -100%;
+  -webkit-transition: margin-left 0.5s ease-in-out;
+  -moz-transition: margin-left 0.5s ease-in-out;
+  -ms-transition: margin-left 0.5s ease-in-out;
+  -o-transition: margin-left 0.5s ease-in-out;
+  transition: margin-left 0.5s ease-in-out;
+}
+.media-sharer-group.d-inline-block {
+  display: inline-block;
+}
+.media-sharer-group .btn,
+.btn.media-sharing-btn {
+  display: inline-block;
+  font-weight: 200;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.4rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  border-radius: 0.65rem;
+}
+.media-sharer-group .btn,
+.btn.media-sharing-btn,
+.btn.media-sharing-btn .fab {
+  background-color: #8224e3;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn.media-sharing-btn:hover,
+.btn.media-sharing-btn:focus,
+.btn.media-sharing-btn:active,
+.btn.media-sharing-btn:hover .fab,
+.btn.media-sharing-btn:focus .fab,
+.btn.media-sharing-btn:active .fab {
+  background-color: transparent;
+  color: #8224e3;
+  border-color: #8224e3;
+}
+.tech-teller-vid-ftr {
+  border-radius: 0.875rem;
+  -webkit-border-radius: 0.875rem;
+  -moz-border-radius: 0.875rem;
+}
+.tech-teller-vid-ftr .winplate {
+  font-size: 75%;
+  font-weight: 500;
+  line-height: 1;
+}
+/*
+* ----------------------------------------------------------------
+* photo gallery post formats styles for Tech Teller
+* ----------------------------------------------------------------
+*/
+.tech-teller-gallery {
+  display: block;
+  background-color: #ffffff;
+  color: #000000;
+}
+.gallery-posts-heading {
+  display: block;
+  width: auto;
+  background-color: #000000;
+  -webkit-border-radius: 1rem 0.5rem;
+  -moz-border-radius: 1rem 0.5rem;
+  border-radius: 1rem 0.5rem;
+}
+.bg_tech_teller_light .gallery-posts-heading a {
+  color: #ffffff;
+  font-weight: 600;
+}
+.bg_tech_teller_light .gallery-posts-heading a:hover,
+.bg_tech_teller_light .gallery-posts-heading a:focus {
+  color: #edd717;
+}
+.blocks-gallery-item.tt-gallery {
+  min-height: 270px;
+}
+.tt-gallery-figure {
+  display: inline-block;
+  position: relative;
+}
+.tt-gallery-img {
+  width: 360px;
+  height: 270px;
+  transition: all 0.3s ease-in-out;
+}
+.gallery-caption.tt-caption {
+  opacity: 0.8;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -2rem;
+  transition: all 0.3s ease-in-out;
+}
+.tt-gallery-img:hover {
+  opacity: 0.8;
+}
+.tt-gallery-img:hover .gallery-caption.tt-caption,
+.gallery-caption.tt-caption:hover {
+  opacity: 1;
+}
+.tt-gallery-posts {
+  max-height: 270px;
+}
+.tt-gallery-postsimg {
+  width: 360px;
+  height: 270px;
+}
+/*
+* -------------------------------------------------
+* single-post-callout styles for Tech Teller
+* -------------------------------------------------
+*/
+.tech_teller_single_post_callout,  h1.post_callout_heading {
+  color: #ffffff;
+}
+.tech_teller_single_post_callout a, a.post_callout_title {
+  display: block;
+  color: #ffffff;
+}
+.post_callout_meta {
+  color: #ffffff;
+}
+a.post_callout_author {
+  color: #00d2ff;
+}
+.tech_teller_single_post_callout .post_callout_content {
+  color: #ffffff;
+}
+.tech_teller_single_post_callout a.post_callout_link {
+  color: #ffffff;
+}
+
+/*
+* -------------------------------------------------
+* frontpage featured blog styles for Tech Teller
+* -------------------------------------------------
+*/
+.bg-tech-teller-img.featured_blog_wrapper {
+  background-clip: border-box;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: local;
+}
+.bg_tech_teller_dark.featured_blog_wrapper {
+   background-color: #040e0a;
+}
+.bg_tech_teller_dark.featured_blog_wrapper, 
+.bg_tech_teller_dark.featured_blog_wrapper p, 
+.bg_tech_teller_dark.featured_blog_wrapper a, 
+.bg_tech_teller_dark.featured_blog_wrapper h1 a {
+  color: #ffffff;
+}
+.bg_tech_teller_dark.featured_blog_wrapper a {
+  transition: all 0.3s ease;
+}
+.bg_tech_teller_dark.featured_blog_wrapper a:hover,
+.bg_tech_teller_dark.featured_blog_wrapper a:focus,
+.bg_tech_teller_dark.featured_blog_wrapper h1 a:hover, 
+.bg_tech_teller_dark.featured_blog_wrapper h1 a:focus {
+  color: #fffc09;
+}
+.tech_teller_featured_blog,  h1.featured_blog_heading {
+  color: #ffffff;
+}
+.tech_teller_featured_blog a, a.featured_blog_title {
+  display: inline-block;
+  color: #ffffff;
+}
+.featured_blog_meta {
+  color: #ffffff;
+}
+a.featured_blog_author {
+  color: #00d2ff;
+}
+.tech_teller_featured_blog .featured_blog_content {
+  color: #ffffff;
+}
+.tech_teller_featured_blog a.featured_blog_link {
+  color: #F19818;
+}
+.byline {
+  display: inline;
+}
+
+/* for featured videos */
+.featured-tech-teller-video .winplate {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
+.featured-tech-teller-video video,
+.featured-tech-teller-video iframe {
+  display: block;
+  width: 100%;
+  height: 270px;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.featured-tech-teller-video::before {
+  padding-top: 75%;
+}
+
+/*
+* -------------------------------------------------
+*   Custom styles for Tech Teller comments area
+* -------------------------------------------------
+*/
+.comments {
+  background-color: #fffbfb;
+}
+.comment-content a {
+    word-wrap: break-word;
+}
+.bypostauthor {
+    display: block;
+}
+.comments .tech-teller-heading-bg {
+  width: 100%;
+  background-color: #fa5151;
+  color: #ffffff;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+}
+.tech-teller-heading-bg .comments-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.25rem;
+  color: #ffffff;
+}
+.comment-notes {
+  font-style: italic;
+  font-weight: bold;
+  color: #2d3161;
+}
+#commentform input[type=text], 
+#commentform input[type=email], 
+#commentform input[type=url] {
+  -webkit-appearance: textfield;
+  background-color: #eff7f7;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 3px;
+  border: 1px solid #c0e2ff;
+}
+.comment-form-comment label {
+  display: block;
+  width: 100%;
+}
+#commentform input, 
+#commentform textarea {
+  text-rendering: auto;
+  color: #151515;
+  background-color: #eff7f7;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  display: inline-block;
+  font: 400 14px sans-serif "Helvetica Neue";
+  border-radius: 0.85rem;
+  -webkit-border-radius: 0.85rem;
+  -moz-border-radius: 0.85rem;
+  background-clip: padding-box;
+}
+#commentform input[type=text]:focus, 
+#commentform input[type=email]:focus, 
+#commentform input[type=url]:focus, 
+#commentform textarea   {
+  box-shadow: 0 0 5px rgba(200, 235, 254, 1);
+  margin: 5px 1px 3px 5px;
+  border: 2px solid rgba(168, 222, 251, 1);
+}
+#author, #email {
+  font-family: "Open Sans", "Droid Sans", Arial;
+  font-style: italic;
+}
+#url {
+  font-family: "Open Sans", "Droid Sans", Arial;
+}
+#commentform .submit {
+  padding: 0.4rem 0.75rem;
+  background-color: #fa5151;
+  color: #ffffff;
+  border: 1px #fa5151 solid;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.65rem;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+#commentform .submit:hover, 
+#commentform .submit:focus {
+  background-color: transparent;
+  color: #3a6073;
+  border: 1px #3a6073 solid;
+}
+.comment-list {
+  padding:5px 10px;
+  margin: 0;
+  list-style: none;
+}
+.comment-list li {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  list-style-type: none;
+}
+.comment-body {
+  color: #2e3e5e;
+  background-color: #fafafa;
+  padding: 5px;
+}
+.comment-author {
+  color: #1f3e7d;
+  font-weight: 500;
+}
+.comment-author .says {
+  font-weight: 300;
+}
+.comment-metadata {
+  color: #1f3e7d;
+  padding-left: 5px;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.comment-content {
+  background-color: #fffbfb;
+  padding: 5px;
+  margin-top: 10px;
+}
+.comment-body .reply {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bg_tech_teller_light .comment-reply-link {
+  width: 5rem;
+  padding: 5px 10px;
+  font-size: 87.5%;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #fa5151;
+  border-radius: 0.85rem;
+  -webkit-border-radius: 0.85rem;
+  -moz-border-radius: 0.85rem;
+  background-clip: padding-box;
+}
+.bg_tech_teller_light .comment-reply-link:hover,
+.bg_tech_teller_light .comment-reply-link:focus {
+  color: #ffffff;
+  background-color: #e2ae2c;
+}
+#respond {
+  background-color: #fafafa;
+  padding: 0.75rem 0.4rem 0;
+  border-top: 2px #fa5151 solid;
+}
+#reply-title {
+  width: 60%;
+  padding: 5px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #fa5151;
+  border-radius: 0.85rem;
+  -webkit-border-radius: 0.85rem;
+  -moz-border-radius: 0.85rem;
+  background-clip: border-box;
+}
+#reply-title a {
+  color: #fafafa;
+}
+#reply-title a:hover,
+#reply-title a:focus {
+  color: #ffffff;
+}
+#reply-title #cancel-comment-reply-link {
+  color: #fafafa;
+}
+#reply-title #cancel-comment-reply-link:hover {
+  color: #ffffff;
+  background-color: #e2ae2c;
+  border-radius: 0.85rem;
+  padding: 0.25rem;
+  -webkit-border-radius: 0.85rem;
+  -moz-border-radius: 0.85rem;
+  background-clip: border-box;
+}
+#commentform input[type=text], #commentform input[type=email], 
+#commentform input[type=url], 
+#respond input[type=text], #respond input[type=email], 
+#respond input[type=url] {
+  width: 80%;
+}
+#commentform textarea, #respond textarea {
+  width: 90%;
+}
+@media (min-width: 768px) {
+  #commentform input[type=text], #commentform input[type=email], 
+  #commentform input[type=url], 
+  #respond input[type=text], #respond input[type=email], 
+  #respond input[type=url] {
+    width: 60%;
+  }
+  #commentform textarea, #respond textarea {
+    width: 75%;
+  }
+}
+#respond input[type=text], #respond input[type=email], 
+#respond input[type=url], #respond textarea   {
+  transition: all 0.30s ease;
+  -webkit-transition: all 0.30s ease;
+  -moz-transition: all 0.30s ease;
+  -ms-transition: all 0.30s ease;
+  -o-transition: all 0.30s ease;
+  outline: none;
+  padding: 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #b8ddfc;
+}
+#respond input[type=text], #respond input[type=email], 
+#respond input[type=url] {
+  margin-left: 0.35rem;
+}
+#respond input[type=text]:focus, #respond input[type=email]:focus, 
+#respond input[type=url]:focus, #respond textarea   {
+  -webkit-box-shadow: 0 0 5px rgba(200, 235, 254, 1);
+  -moz-box-shadow: 0 0 5px rgba(200, 235, 254, 1);
+  box-shadow: 0 0 5px rgba(200, 235, 254, 1);
+  margin: 5px 1px 3px 5px;
+  padding: 4px 3px;
+  border: 2px solid rgba(168, 222, 251, 1);
+}
+
+/*
+* -------------------------------------------------
+* Footer styles for Tech Teller
+* -------------------------------------------------
+*/
+.tech_teller_footer_container, 
+.tech_teller_footer_container .tech-teller-footer-main {
+  background-color: #2b2b2b;
+  color:#e1d8d8;
+  border-bottom: 1px #242424 solid;
+}
+.tech-teller-footer-main .widget.foot-widget {
+  display: block;
+  width: 100%;
+}
+.tech-teller-footer-main .widget_text {
+  color: #fbfcdb;
+}
+.tech-teller-footer-main .foot-widget .widget-title {
+  padding: 0.25rem 0 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px #e1d8d8 solid;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.tech-teller-footer-main h3.foot-widget-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.tech-teller-footer-main .widget_text .textwidget {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+.tech-teller-footer-main .foot-widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tech-teller-footer-main .foot-widget ul li {
+  display: block;
+  list-style-type: none;
+  line-height: 1.8;
+  color: #e1d8d8;
+  font-size: 1rem;
+}
+.tech_teller_footer_container a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #b4b0b0;
+  text-decoration: none;
+}
+.tech_teller_footer_container a:hover, 
+.tech_teller_footer_container a:focus {
+  color: #ffffff;
+}
+
+.footer-social-row a.btn-tech-teller-social {
+  padding: 2px;
+  background-color: transparent;
+}
+
+.footer-social-row a .fab,
+.footer-social-row .fab,
+.footer-social-row a .fa,
+.footer-social-row .fa {
+  color: #a4a4a4;
+}
+
+.footer-social-row a .fab:hover,
+.footer-social-row a .fab:focus,
+.footer-social-row .fab:hover,
+.footer-social-row a .fa:hover,
+.footer-social-row a .fa:focus,
+.footer-social-row .fa:hover {
+  color: #fbfbfb;
+}
+
+.tech_teller_footer_container .tt-footer-extra {
+  background-color: #121212;
+}
+
+/* Style for the scroll up button */
+.scrollup {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index:1500;
+  padding: 10px 20px;
+  background-color: #fa5151;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  -moz-border-radius: 0.35rem;
+  -webkit-border-radius: 0.35rem;
+  border-radius: 0.35rem;
+  transform: rotate(20deg);
+  transition-duration: .6s;
+  transform-origin: 0% 0%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.scrollup:hover,
+.scrollup:active,
+.scrollup:focus {
+  background-color: #e2ae2c;
+  transform: rotate(0deg);
+}

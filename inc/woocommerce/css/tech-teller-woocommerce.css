@@ -1,0 +1,308 @@
+/**
+* theme Tech Teller
+* styles for woocommerce shop and other storefront pages
+*
+*/
+
+/*general*/
+.tech-teller-woocommerce .tech-teller-wc-area,
+.woocommerce-page #content {
+	background-color: #fcfaf2;
+	color: #15151b;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.tech-teller-woocommerce .tech-teller-wc-area img,
+.woocommerce-page #content img {
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+
+.tech-teller-woocommerce .tech-teller-wc-area input, 
+.tech-teller-woocommerce .tech-teller-wc-area select, 
+.tech-teller-woocommerce .tech-teller-wc-area optgroup, 
+.tech-teller-woocommerce .tech-teller-wc-area textarea,
+.tech-teller-woocommerce #content input, 
+.tech-teller-woocommerce #content select, 
+.tech-teller-woocommerce #content optgroup, 
+.tech-teller-woocommerce #content textarea {
+	color: #15151b;
+}
+
+.tech-teller-woocommerce table,
+.woocommerce-page table {
+	border-collapse: separate;
+    margin: 0 0 6px;
+    padding: 0;
+    border: 1px solid rgba(0,0,0,.3);
+}
+.tech-teller-woocommerce table.shop_table td,
+.woocommerce-page table.shop_table td {
+	line-height: 1.5rem;
+}
+/*sidebar*/
+.tech-teller-woocommerce .sidebar-widget-area,
+.tech-teller-woocommerce-cart .sidebar-widget-area,
+.tech-teller-woocommerce-checkout .sidebar-widget-area,
+.tech-teller-woocommerce .widget .side-widget, 
+.tech-teller-woocommerce-cart .widget .side-widget, 
+.tech-teller-woocommerce-checkout .widget .side-widget, 
+{
+	background-color: #fcfaf2;
+}
+.tech-teller-woocommerce .side-widget .list-group .list-group-item a,
+.tech-teller-woocommerce-cart .side-widget .list-group .list-group-item a,
+.tech-teller-woocommerce-checkout .side-widget .list-group .list-group-item a {
+	color: #3a6073;
+}
+.tech-teller-woocommerce .side-widget .list-group .list-group-item a:hover, 
+.tech-teller-woocommerce .side-widget .list-group .list-group-item a:focus, 
+.tech-teller-woocommerce .side-widget .list-group .list-group-item a:active,
+.tech-teller-woocommerce-cart .side-widget .list-group .list-group-item a:hover, 
+.tech-teller-woocommerce-cart .side-widget .list-group .list-group-item a:focus, 
+.tech-teller-woocommerce-cart .side-widget .list-group .list-group-item a:active,
+.tech-teller-woocommerce-checkout .side-widget .list-group .list-group-item a:hover, 
+.tech-teller-woocommerce-checkout .side-widget .list-group .list-group-item a:focus, 
+.tech-teller-woocommerce-checkout .side-widget .list-group .list-group-item a:active {
+	color: #15151b;
+}
+
+/*breadcrumb*/
+.tech-teller-woocommerce .woocommerce-breadcrumb {
+	width: fit-content;
+	width: -moz-fit-content;
+    margin: 0 0 1rem;
+    padding: 0.25rem 1.5rem 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    background-color: #040e0a;
+    color: #ffffff;
+    -moz-border-top-left-radius: 0.65rem;
+    -webkit-border-top-left-radius: 0.65rem;
+    border-top-left-radius: 0.65rem;
+    -moz-border-bottom-left-radius: 0.65rem;
+    -webkit-border-bottom-left-radius: 0.65rem;
+    border-bottom-left-radius: 0.65rem;
+    -moz-border-top-right-radius: 50%;
+    -webkit-border-top-right-radius: 50%;
+    border-top-right-radius: 50%;
+    -moz-border-bottom-right-radius: 50%;
+    -webkit-border-bottom-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.tech-teller-woocommerce .woocommerce-breadcrumb a {
+	color: #fcfaf2;
+}
+.tech-teller-woocommerce .woocommerce-breadcrumb a:hover,
+.tech-teller-woocommerce .woocommerce-breadcrumb a:focus,
+.tech-teller-woocommerce .woocommerce-breadcrumb a:active {
+	color: #ffffff;
+}
+/*page header*/
+.tech-teller-woocommerce .woocommerce-products-header {
+	margin: 0 0 1rem;
+	padding: 0.25rem;
+	background-color: #fa5151;
+	color: #ffffff;
+	text-align: center;
+	-moz-border-radius: 0.65rem;
+	-webkit-border-radius: 0.65rem;
+	border-radius: 0.65rem;
+	background-clip: padding-box;
+}
+.tech-teller-woocommerce .woocommerce-products-header h1.woocommerce-products-header__title .page-title {
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.tech-teller-woocommerce .woocommerce-result-count {
+	padding: 0.25rem 0.5rem;
+	background-color: #ffffff;
+	color: #15151b;
+	font-weight: 400;
+	-moz-border-radius: 0.65rem;
+	-webkit-border-radius: 0.65rem;
+	border-radius: 0.65rem;
+}
+
+/*form fields*/
+.tech-teller-woocommerce .woocommerce-ordering, 
+.woocommerce-page .woocommerce-ordering {
+	margin: 0 0 1rem;
+	float: right;
+}
+.tech-teller-woocommerce .woocommerce-ordering select,
+.woocommerce-page .woocommerce-ordering select {
+	padding: 0.25rem;
+	-moz-border-radius: 0.65rem;
+	-webkit-border-radius: 0.65rem;
+	border-radius: 0.65rem;
+}
+
+.tech-teller-woocommerce .woocommerce-ordering select option {
+	color: #15151b;
+}
+
+@media (max-width: 576px) {
+	.tech-teller-woocommerce .woocommerce-ordering, 
+	.woocommerce-page .woocommerce-ordering {
+		float: none;
+	}
+}
+
+/*product list*/
+.tech-teller-woocommerce ul.products.columns-3 li.product, 
+.woocommerce-page ul.products.columns-3 li.product {
+	width: 30.75%;
+}
+.woocommerce-page ul.products li,
+.tech-teller-woocommerce .products li, 
+.tech-teller-woocommerce ul.products li {
+	float: left;
+	margin: 0 3.8% 3rem 0;
+	position: relative;
+	margin-left: 0;
+	text-align: center;
+	padding: 0.5rem;
+	background-color: #ffffff;
+	-moz-border-radius: 0.65rem;
+	-webkit-border-radius: 0.65rem;
+	border-radius: 0.65rem;
+	-moz-box-shadow: 2px 2px 2px 3px #cbd4dc, 2px 2px 2px 3px #faf8f8;
+	-webkit-box-shadow: 2px 2px 2px 3px #cbd4dc, 2px 2px 2px 3px #faf8f8;
+	box-shadow: 2px 2px 2px 3px #cbd4dc, 2px 2px 2px 3px #faf8f8;
+}
+@media (max-width: 576px) {
+	.tech-teller-woocommerce ul.products.columns-3 li.product, 
+	.woocommerce-page ul.products.columns-3 li.product {
+		width: 100%;
+	}
+	.woocommerce-page ul.products li,
+	.tech-teller-woocommerce .products li, 
+	.tech-teller-woocommerce ul.products li {
+		float: none;
+		margin: 0;
+	}
+}
+
+.tech-teller-woocommerce ul.products li.product a img {
+	/*vertical-align: middle;
+	max-width: 100%;
+	height: auto;*/
+
+	width: 100%;
+	height: auto;
+	max-height: 180px;
+	display: block;
+	margin: 0 0 1rem;
+	-moz-border-radius: 0.65rem 0.65rem 0 0;
+	-webkit-border-radius: 0.65rem 0.65rem 0 0;
+	border-radius: 0.65rem 0.65rem 0 0;
+}
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-category__title, 
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-product__title, 
+.tech-teller-woocommerce ul.products li.product h2 {
+	padding: 0.5rem;
+}
+
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-category__title, 
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-product__title {
+	color: #753a88;
+	font-weight: 500;
+}
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-category__title:hover, 
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-category__title:focus, 
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-category__title:active, 
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-product__title:hover,
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-product__title:focus,
+.tech-teller-woocommerce ul.products li.product .woocommerce-loop-product__title:active {
+	color: #3a6073;
+}
+.tech-teller-woocommerce ul.products li.product .button {
+	margin-bottom: 1rem;
+}
+.tech-teller-woocommerce ul.products li.product .onsale {
+	top: 0;
+    right: 0;
+    left: auto;
+    margin: -.5rem -.5rem 0 0;
+}
+.tech-teller-woocommerce span.onsale {
+	min-height: 3.25rem;
+    min-width: 4.25rem;
+    padding: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    line-height: 3.236;
+    top: -0.5rem;
+    left: -0.5rem;
+    margin: 0;
+    border-radius: 100%;
+    background-color: #753a88;
+    color: #ffffff;
+    font-size: 0.875rem;
+    z-index: 1000;
+    -moz-box-shadow: 2px 2px 2px 3px rgba(250,81,81,0.5), 2px 2px 2px 3px rgba(250,143,81,0.5);
+	-webkit-box-shadow: 2px 2px 2px 3px rgba(250,81,81,0.5), 2px 2px 2px 3px rgba(250,143,81,0.5);
+	box-shadow: 2px 2px 2px 3px rgba(250,81,81,0.2), 2px 2px 2px 3px rgba(250,143,81,0.2);
+} 
+.tech-teller-woocommerce a.button, 
+.tech-teller-woocommerce button.button, 
+.tech-teller-woocommerce input.button,
+.woocommerce-page .button,
+.woocommerce-page a.button {
+	font-size: 100%;
+    margin: 0;
+    line-height: 1.2;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618rem 1rem;
+    font-weight: 500;
+    -moz-border-radius: 0.65rem;
+    -webkit-border-radius: 0.65rem;
+    border-radius: 0.65rem;
+    left: auto;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-transition:all .5s ease-in-out;
+  	-moz-transition:all .5s ease-in-out;
+  	transition:all .5s ease-in-out;
+}
+.tech-teller-woocommerce a.button, 
+.tech-teller-woocommerce button.button, 
+.tech-teller-woocommerce input.button,
+.woocommerce-page .button,
+.woocommerce-page a.button {
+	color: #3a6073;
+    background-color: transparent;
+	border: 1px #3a6073 solid;
+}
+.tech-teller-woocommerce a.button:hover, 
+.tech-teller-woocommerce a.button:focus, 
+.tech-teller-woocommerce a.button:active,
+.tech-teller-woocommerce button.button:hover, 
+.tech-teller-woocommerce button.button:focus, 
+.tech-teller-woocommerce button.button:active,
+.tech-teller-woocommerce input.button:hover,
+.tech-teller-woocommerce input.button:focus,
+.tech-teller-woocommerce input.button:active,
+.woocommerce-page .button:hover,
+.woocommerce-page .button:focus,
+.woocommerce-page .button:active,
+.woocommerce-page a.button:hover, 
+.woocommerce-page a.button:focus, 
+.woocommerce-page a.button:active {
+	color: #ffffff;
+    background-color: #fa5151;
+	border: 1px #fa5151 solid;
+}
+
+
+
